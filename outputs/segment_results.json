@@ -1,0 +1,9103 @@
+{
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "inertias": [
+    3356.27,
+    1717.1,
+    1028.72,
+    759.12,
+    636.37,
+    523.77,
+    443.41
+  ],
+  "sil_scores": [
+    0.6118,
+    0.5466,
+    0.4614,
+    0.4567,
+    0.4012,
+    0.3948,
+    0.3985
+  ],
+  "best_k": 2,
+  "pca_variance": [
+    0.7131147102612068,
+    0.24501548029170547
+  ],
+  "scatter": [
+    {
+      "PCA1": 3.9695,
+      "PCA2": 1.3612,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 30,
+      "Monetary": 41915000.0
+    },
+    {
+      "PCA1": -1.1893,
+      "PCA2": -0.3369,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 68,
+      "Frequency": 2,
+      "Monetary": 94000.0
+    },
+    {
+      "PCA1": -0.9654,
+      "PCA2": -0.0624,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 82,
+      "Frequency": 5,
+      "Monetary": 982800.0
+    },
+    {
+      "PCA1": -0.1899,
+      "PCA2": -0.6462,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 9,
+      "Monetary": 1822400.0
+    },
+    {
+      "PCA1": -1.8496,
+      "PCA2": 0.7123,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 156,
+      "Frequency": 1,
+      "Monetary": 45800.0
+    },
+    {
+      "PCA1": -1.1418,
+      "PCA2": 0.3,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 111,
+      "Frequency": 5,
+      "Monetary": 1184400.0
+    },
+    {
+      "PCA1": -0.7779,
+      "PCA2": 0.0412,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 85,
+      "Frequency": 7,
+      "Monetary": 1524400.0
+    },
+    {
+      "PCA1": 2.7326,
+      "PCA2": 0.8053,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 13,
+      "Frequency": 23,
+      "Monetary": 31243400.0
+    },
+    {
+      "PCA1": -0.5462,
+      "PCA2": -0.17,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 8,
+      "Monetary": 1776100.0
+    },
+    {
+      "PCA1": -1.4525,
+      "PCA2": 0.3585,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 123,
+      "Frequency": 3,
+      "Monetary": 164800.0
+    },
+    {
+      "PCA1": -0.9059,
+      "PCA2": -0.1711,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 73,
+      "Frequency": 5,
+      "Monetary": 1005300.0
+    },
+    {
+      "PCA1": -1.7598,
+      "PCA2": 0.541,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 142,
+      "Frequency": 1,
+      "Monetary": 32500.0
+    },
+    {
+      "PCA1": 5.0914,
+      "PCA2": 1.961,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 36,
+      "Monetary": 52695600.0
+    },
+    {
+      "PCA1": 1.0193,
+      "PCA2": -0.106,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 18,
+      "Monetary": 9459900.0
+    },
+    {
+      "PCA1": -1.3741,
+      "PCA2": 0.2129,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 111,
+      "Frequency": 3,
+      "Monetary": 179700.0
+    },
+    {
+      "PCA1": 0.3041,
+      "PCA2": -0.6455,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 11,
+      "Monetary": 5599500.0
+    },
+    {
+      "PCA1": 0.085,
+      "PCA2": -0.7158,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 11,
+      "Monetary": 2306200.0
+    },
+    {
+      "PCA1": -0.9299,
+      "PCA2": -0.824,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 2,
+      "Monetary": 108000.0
+    },
+    {
+      "PCA1": -0.3486,
+      "PCA2": -0.9902,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 6,
+      "Monetary": 1298200.0
+    },
+    {
+      "PCA1": -0.2233,
+      "PCA2": -0.3228,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 47,
+      "Frequency": 10,
+      "Monetary": 2309500.0
+    },
+    {
+      "PCA1": -0.6634,
+      "PCA2": -0.637,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 5,
+      "Monetary": 947500.0
+    },
+    {
+      "PCA1": -0.4389,
+      "PCA2": -0.8366,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 6,
+      "Monetary": 1185400.0
+    },
+    {
+      "PCA1": -0.6914,
+      "PCA2": -1.0817,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 3,
+      "Monetary": 130300.0
+    },
+    {
+      "PCA1": 0.1619,
+      "PCA2": -0.6232,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 10,
+      "Monetary": 5211300.0
+    },
+    {
+      "PCA1": 2.9577,
+      "PCA2": 0.8111,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 3,
+      "Frequency": 23,
+      "Monetary": 34174100.0
+    },
+    {
+      "PCA1": -0.6454,
+      "PCA2": -0.6746,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 5,
+      "Monetary": 922500.0
+    },
+    {
+      "PCA1": 2.9995,
+      "PCA2": 0.7987,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 25,
+      "Monetary": 32054400.0
+    },
+    {
+      "PCA1": -0.0329,
+      "PCA2": -0.1681,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 11,
+      "Monetary": 4522800.0
+    },
+    {
+      "PCA1": -0.5815,
+      "PCA2": -0.3227,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 55,
+      "Frequency": 7,
+      "Monetary": 1568100.0
+    },
+    {
+      "PCA1": 0.7317,
+      "PCA2": -0.4485,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 15,
+      "Monetary": 7289600.0
+    },
+    {
+      "PCA1": -1.1475,
+      "PCA2": -0.2137,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 76,
+      "Frequency": 3,
+      "Monetary": 185100.0
+    },
+    {
+      "PCA1": -0.2069,
+      "PCA2": -0.677,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 9,
+      "Monetary": 1394000.0
+    },
+    {
+      "PCA1": 0.3823,
+      "PCA2": -0.3861,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 13,
+      "Monetary": 5799900.0
+    },
+    {
+      "PCA1": -1.3119,
+      "PCA2": 0.089,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 101,
+      "Frequency": 3,
+      "Monetary": 135100.0
+    },
+    {
+      "PCA1": -2.4812,
+      "PCA2": 1.9089,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 254,
+      "Frequency": 1,
+      "Monetary": 85500.0
+    },
+    {
+      "PCA1": -1.4074,
+      "PCA2": -0.1148,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 1,
+      "Monetary": 92600.0
+    },
+    {
+      "PCA1": -0.0379,
+      "PCA2": -0.7301,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 10,
+      "Monetary": 1916600.0
+    },
+    {
+      "PCA1": -0.0587,
+      "PCA2": -0.6947,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 10,
+      "Monetary": 1891200.0
+    },
+    {
+      "PCA1": 2.7165,
+      "PCA2": 0.8098,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 23,
+      "Monetary": 31067700.0
+    },
+    {
+      "PCA1": 0.6098,
+      "PCA2": -0.164,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 15,
+      "Monetary": 7662600.0
+    },
+    {
+      "PCA1": 0.5287,
+      "PCA2": -0.5124,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 13,
+      "Monetary": 6819300.0
+    },
+    {
+      "PCA1": -1.3414,
+      "PCA2": 0.1522,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 106,
+      "Frequency": 3,
+      "Monetary": 186500.0
+    },
+    {
+      "PCA1": -1.3328,
+      "PCA2": 0.2457,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 111,
+      "Frequency": 3,
+      "Monetary": 933000.0
+    },
+    {
+      "PCA1": 0.8099,
+      "PCA2": 0.4587,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 70,
+      "Frequency": 19,
+      "Monetary": 9330300.0
+    },
+    {
+      "PCA1": 0.9484,
+      "PCA2": -0.4257,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 17,
+      "Monetary": 7656700.0
+    },
+    {
+      "PCA1": -0.1986,
+      "PCA2": -0.6358,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 9,
+      "Monetary": 1780800.0
+    },
+    {
+      "PCA1": 0.3134,
+      "PCA2": -0.7248,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 11,
+      "Monetary": 5179700.0
+    },
+    {
+      "PCA1": 0.4897,
+      "PCA2": -0.6128,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 13,
+      "Monetary": 5635300.0
+    },
+    {
+      "PCA1": -0.9308,
+      "PCA2": -0.8247,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 2,
+      "Monetary": 91400.0
+    },
+    {
+      "PCA1": -1.3901,
+      "PCA2": -0.153,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 85,
+      "Frequency": 1,
+      "Monetary": 54200.0
+    },
+    {
+      "PCA1": -0.7394,
+      "PCA2": -0.9986,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 3,
+      "Monetary": 80000.0
+    },
+    {
+      "PCA1": -0.8716,
+      "PCA2": 0.14,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 7,
+      "Monetary": 993100.0
+    },
+    {
+      "PCA1": -0.6478,
+      "PCA2": -0.6593,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 5,
+      "Monetary": 995500.0
+    },
+    {
+      "PCA1": -1.5494,
+      "PCA2": 1.3139,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 191,
+      "Frequency": 6,
+      "Monetary": 1570500.0
+    },
+    {
+      "PCA1": -1.1743,
+      "PCA2": -0.5535,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 1,
+      "Monetary": 97600.0
+    },
+    {
+      "PCA1": -0.7117,
+      "PCA2": -0.7479,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 4,
+      "Monetary": 857400.0
+    },
+    {
+      "PCA1": 2.523,
+      "PCA2": 0.7503,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 20,
+      "Monetary": 32034000.0
+    },
+    {
+      "PCA1": -0.2187,
+      "PCA2": -0.5998,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 9,
+      "Monetary": 1768200.0
+    },
+    {
+      "PCA1": -2.9156,
+      "PCA2": 2.7249,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 321,
+      "Frequency": 1,
+      "Monetary": 63500.0
+    },
+    {
+      "PCA1": -0.2339,
+      "PCA2": -0.2446,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 10,
+      "Monetary": 2707100.0
+    },
+    {
+      "PCA1": -2.0571,
+      "PCA2": 1.102,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 188,
+      "Frequency": 1,
+      "Monetary": 35300.0
+    },
+    {
+      "PCA1": 0.6706,
+      "PCA2": -0.1991,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 16,
+      "Monetary": 6918700.0
+    },
+    {
+      "PCA1": -2.9363,
+      "PCA2": 2.7604,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 324,
+      "Frequency": 1,
+      "Monetary": 39000.0
+    },
+    {
+      "PCA1": 2.8205,
+      "PCA2": 0.8753,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 13,
+      "Frequency": 23,
+      "Monetary": 32849200.0
+    },
+    {
+      "PCA1": 5.1364,
+      "PCA2": 2.2191,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 18,
+      "Frequency": 35,
+      "Monetary": 56317500.0
+    },
+    {
+      "PCA1": 0.6791,
+      "PCA2": -0.3138,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 16,
+      "Monetary": 6247000.0
+    },
+    {
+      "PCA1": 1.2631,
+      "PCA2": -0.2556,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 19,
+      "Monetary": 10286700.0
+    },
+    {
+      "PCA1": -0.384,
+      "PCA2": -0.1039,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 67,
+      "Frequency": 10,
+      "Monetary": 1737700.0
+    },
+    {
+      "PCA1": -0.6724,
+      "PCA2": -1.1187,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 3,
+      "Monetary": 121900.0
+    },
+    {
+      "PCA1": -0.604,
+      "PCA2": 0.1512,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 89,
+      "Frequency": 9,
+      "Monetary": 1934800.0
+    },
+    {
+      "PCA1": 2.2317,
+      "PCA2": 0.6193,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 19,
+      "Monetary": 28686200.0
+    },
+    {
+      "PCA1": -1.7389,
+      "PCA2": 1.0149,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 174,
+      "Frequency": 3,
+      "Monetary": 957500.0
+    },
+    {
+      "PCA1": 0.116,
+      "PCA2": -0.3097,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 11,
+      "Monetary": 5471600.0
+    },
+    {
+      "PCA1": -1.1701,
+      "PCA2": 0.7867,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 146,
+      "Frequency": 7,
+      "Monetary": 1565300.0
+    },
+    {
+      "PCA1": 0.0928,
+      "PCA2": -0.8515,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 10,
+      "Monetary": 2769000.0
+    },
+    {
+      "PCA1": -1.4098,
+      "PCA2": 0.465,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 130,
+      "Frequency": 4,
+      "Monetary": 152100.0
+    },
+    {
+      "PCA1": -0.4507,
+      "PCA2": -0.8633,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 6,
+      "Monetary": 850900.0
+    },
+    {
+      "PCA1": -1.1874,
+      "PCA2": -0.3526,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 67,
+      "Frequency": 2,
+      "Monetary": 12000.0
+    },
+    {
+      "PCA1": 4.4959,
+      "PCA2": 1.6998,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 9,
+      "Frequency": 32,
+      "Monetary": 48411000.0
+    },
+    {
+      "PCA1": 1.1283,
+      "PCA2": -0.2935,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 19,
+      "Monetary": 8295800.0
+    },
+    {
+      "PCA1": 0.0711,
+      "PCA2": 0.2505,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 13,
+      "Monetary": 6139000.0
+    },
+    {
+      "PCA1": -0.793,
+      "PCA2": -0.1301,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 73,
+      "Frequency": 6,
+      "Monetary": 1449600.0
+    },
+    {
+      "PCA1": -2.6726,
+      "PCA2": 2.2594,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 283,
+      "Frequency": 1,
+      "Monetary": 13900.0
+    },
+    {
+      "PCA1": -1.9911,
+      "PCA2": 2.0547,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 254,
+      "Frequency": 6,
+      "Monetary": 942900.0
+    },
+    {
+      "PCA1": -1.0175,
+      "PCA2": -0.8621,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 1,
+      "Monetary": 9200.0
+    },
+    {
+      "PCA1": -1.3657,
+      "PCA2": -0.2029,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 81,
+      "Frequency": 1,
+      "Monetary": 27800.0
+    },
+    {
+      "PCA1": -0.6646,
+      "PCA2": -0.444,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 49,
+      "Frequency": 6,
+      "Monetary": 960500.0
+    },
+    {
+      "PCA1": -0.5754,
+      "PCA2": 0.1046,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 85,
+      "Frequency": 9,
+      "Monetary": 1984600.0
+    },
+    {
+      "PCA1": -2.0525,
+      "PCA2": 2.1588,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 260,
+      "Frequency": 5,
+      "Monetary": 2148900.0
+    },
+    {
+      "PCA1": -0.204,
+      "PCA2": -0.5566,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 8,
+      "Monetary": 3536700.0
+    },
+    {
+      "PCA1": -0.0754,
+      "PCA2": -0.5866,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 10,
+      "Monetary": 2413300.0
+    },
+    {
+      "PCA1": 0.1049,
+      "PCA2": -0.7867,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 11,
+      "Monetary": 2080000.0
+    },
+    {
+      "PCA1": -1.3921,
+      "PCA2": -0.1546,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 85,
+      "Frequency": 1,
+      "Monetary": 17600.0
+    },
+    {
+      "PCA1": -1.0686,
+      "PCA2": -0.3763,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 3,
+      "Monetary": 90700.0
+    },
+    {
+      "PCA1": 0.838,
+      "PCA2": -0.4506,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 15,
+      "Monetary": 8640600.0
+    },
+    {
+      "PCA1": -0.9671,
+      "PCA2": -0.0984,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 80,
+      "Frequency": 5,
+      "Monetary": 715700.0
+    },
+    {
+      "PCA1": 0.7517,
+      "PCA2": 0.3572,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 64,
+      "Frequency": 18,
+      "Monetary": 9177400.0
+    },
+    {
+      "PCA1": -1.1885,
+      "PCA2": 0.4016,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 119,
+      "Frequency": 5,
+      "Monetary": 1277700.0
+    },
+    {
+      "PCA1": -0.1809,
+      "PCA2": 0.023,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 10,
+      "Monetary": 5209700.0
+    },
+    {
+      "PCA1": -3.0065,
+      "PCA2": 2.8953,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 335,
+      "Frequency": 1,
+      "Monetary": 56100.0
+    },
+    {
+      "PCA1": 0.6915,
+      "PCA2": -0.553,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 14,
+      "Monetary": 7348000.0
+    },
+    {
+      "PCA1": 4.2082,
+      "PCA2": 1.4535,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 32,
+      "Monetary": 43037700.0
+    },
+    {
+      "PCA1": 1.0761,
+      "PCA2": -0.3903,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 18,
+      "Monetary": 8251900.0
+    },
+    {
+      "PCA1": -1.4629,
+      "PCA2": 0.4369,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 128,
+      "Frequency": 3,
+      "Monetary": 564900.0
+    },
+    {
+      "PCA1": 3.3885,
+      "PCA2": 1.0453,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 27,
+      "Monetary": 36159400.0
+    },
+    {
+      "PCA1": -0.803,
+      "PCA2": 0.2845,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 8,
+      "Monetary": 1572700.0
+    },
+    {
+      "PCA1": -0.2382,
+      "PCA2": -0.5806,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 9,
+      "Monetary": 1648200.0
+    },
+    {
+      "PCA1": 0.4768,
+      "PCA2": -0.3976,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 13,
+      "Monetary": 6935000.0
+    },
+    {
+      "PCA1": 0.0171,
+      "PCA2": -0.226,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 13,
+      "Monetary": 2199000.0
+    },
+    {
+      "PCA1": -1.2361,
+      "PCA2": -0.0588,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 89,
+      "Frequency": 3,
+      "Monetary": 102300.0
+    },
+    {
+      "PCA1": -0.9185,
+      "PCA2": -0.5689,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 3,
+      "Monetary": 706800.0
+    },
+    {
+      "PCA1": 0.6247,
+      "PCA2": -0.0655,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 37,
+      "Frequency": 15,
+      "Monetary": 8525500.0
+    },
+    {
+      "PCA1": 0.5612,
+      "PCA2": -0.7056,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 15,
+      "Monetary": 3349100.0
+    },
+    {
+      "PCA1": -2.5141,
+      "PCA2": 1.9694,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 259,
+      "Frequency": 1,
+      "Monetary": 74300.0
+    },
+    {
+      "PCA1": -0.1108,
+      "PCA2": -0.5801,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 10,
+      "Monetary": 2001800.0
+    },
+    {
+      "PCA1": 0.5089,
+      "PCA2": -0.473,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 14,
+      "Monetary": 5547200.0
+    },
+    {
+      "PCA1": -0.2903,
+      "PCA2": -0.712,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 8,
+      "Monetary": 1369800.0
+    },
+    {
+      "PCA1": -0.4829,
+      "PCA2": -0.7156,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 6,
+      "Monetary": 1443600.0
+    },
+    {
+      "PCA1": -0.7308,
+      "PCA2": -0.0947,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 7,
+      "Monetary": 1203700.0
+    },
+    {
+      "PCA1": 1.6479,
+      "PCA2": 0.2177,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 12,
+      "Frequency": 17,
+      "Monetary": 21024700.0
+    },
+    {
+      "PCA1": 2.178,
+      "PCA2": 0.1717,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 16,
+      "Frequency": 28,
+      "Monetary": 13373900.0
+    },
+    {
+      "PCA1": -0.6522,
+      "PCA2": -0.8913,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 4,
+      "Monetary": 644200.0
+    },
+    {
+      "PCA1": 3.451,
+      "PCA2": 1.9241,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 53,
+      "Frequency": 26,
+      "Monetary": 44234200.0
+    },
+    {
+      "PCA1": 1.7242,
+      "PCA2": -0.0981,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 24,
+      "Monetary": 10850900.0
+    },
+    {
+      "PCA1": -2.7478,
+      "PCA2": 2.4076,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 295,
+      "Frequency": 1,
+      "Monetary": 56800.0
+    },
+    {
+      "PCA1": 1.0355,
+      "PCA2": -0.2697,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 17,
+      "Monetary": 9838000.0
+    },
+    {
+      "PCA1": 1.1935,
+      "PCA2": -0.207,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 19,
+      "Monetary": 9722300.0
+    },
+    {
+      "PCA1": 0.9643,
+      "PCA2": -0.3816,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 16,
+      "Monetary": 9447200.0
+    },
+    {
+      "PCA1": 0.5412,
+      "PCA2": -0.2219,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 14,
+      "Monetary": 7672700.0
+    },
+    {
+      "PCA1": -1.1431,
+      "PCA2": -0.4214,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 2,
+      "Monetary": 112400.0
+    },
+    {
+      "PCA1": 0.3127,
+      "PCA2": -0.2887,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 12,
+      "Monetary": 6855400.0
+    },
+    {
+      "PCA1": -2.1399,
+      "PCA2": 1.2615,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 201,
+      "Frequency": 1,
+      "Monetary": 58200.0
+    },
+    {
+      "PCA1": -1.0333,
+      "PCA2": -0.8227,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 1,
+      "Monetary": 74900.0
+    },
+    {
+      "PCA1": -0.1084,
+      "PCA2": -0.7548,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 9,
+      "Monetary": 2129000.0
+    },
+    {
+      "PCA1": 0.0536,
+      "PCA2": -0.8133,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 10,
+      "Monetary": 2525300.0
+    },
+    {
+      "PCA1": -0.596,
+      "PCA2": -0.7914,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 5,
+      "Monetary": 760600.0
+    },
+    {
+      "PCA1": -0.991,
+      "PCA2": 0.0039,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 87,
+      "Frequency": 5,
+      "Monetary": 1105000.0
+    },
+    {
+      "PCA1": -0.0019,
+      "PCA2": -0.1813,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 10,
+      "Monetary": 6117000.0
+    },
+    {
+      "PCA1": -2.5726,
+      "PCA2": 2.2728,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 282,
+      "Frequency": 2,
+      "Monetary": 103100.0
+    },
+    {
+      "PCA1": -1.6719,
+      "PCA2": 0.3856,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 129,
+      "Frequency": 1,
+      "Monetary": 103700.0
+    },
+    {
+      "PCA1": 0.0033,
+      "PCA2": -0.9227,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 10,
+      "Monetary": 1134800.0
+    },
+    {
+      "PCA1": -0.1998,
+      "PCA2": -0.003,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 70,
+      "Frequency": 12,
+      "Monetary": 2217700.0
+    },
+    {
+      "PCA1": 0.2275,
+      "PCA2": -0.5883,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 10,
+      "Monetary": 6291800.0
+    },
+    {
+      "PCA1": -1.2738,
+      "PCA2": -0.3726,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 67,
+      "Frequency": 1,
+      "Monetary": 52200.0
+    },
+    {
+      "PCA1": -0.0985,
+      "PCA2": -0.5529,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 10,
+      "Monetary": 2345400.0
+    },
+    {
+      "PCA1": -2.6208,
+      "PCA2": 2.4079,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 292,
+      "Frequency": 2,
+      "Monetary": 404900.0
+    },
+    {
+      "PCA1": -1.0082,
+      "PCA2": -0.8721,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 1,
+      "Monetary": 60300.0
+    },
+    {
+      "PCA1": -0.3061,
+      "PCA2": -0.8837,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 7,
+      "Monetary": 1284300.0
+    },
+    {
+      "PCA1": -1.7802,
+      "PCA2": 1.6851,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 223,
+      "Frequency": 6,
+      "Monetary": 1134000.0
+    },
+    {
+      "PCA1": -0.7281,
+      "PCA2": 0.2054,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 8,
+      "Monetary": 1996500.0
+    },
+    {
+      "PCA1": 2.7359,
+      "PCA2": 0.8504,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 20,
+      "Monetary": 35450500.0
+    },
+    {
+      "PCA1": 1.057,
+      "PCA2": -0.2873,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 17,
+      "Monetary": 9994200.0
+    },
+    {
+      "PCA1": -0.5848,
+      "PCA2": -1.0804,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 4,
+      "Monetary": 222800.0
+    },
+    {
+      "PCA1": 0.5253,
+      "PCA2": -0.0059,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 15,
+      "Monetary": 7653700.0
+    },
+    {
+      "PCA1": 0.4772,
+      "PCA2": 0.6005,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 85,
+      "Frequency": 16,
+      "Monetary": 9881200.0
+    },
+    {
+      "PCA1": -0.2183,
+      "PCA2": -0.6342,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 9,
+      "Monetary": 1539000.0
+    },
+    {
+      "PCA1": -3.0958,
+      "PCA2": 3.067,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 349,
+      "Frequency": 1,
+      "Monetary": 79400.0
+    },
+    {
+      "PCA1": -1.3021,
+      "PCA2": 0.062,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 99,
+      "Frequency": 3,
+      "Monetary": 76500.0
+    },
+    {
+      "PCA1": -1.3308,
+      "PCA2": 0.8811,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 156,
+      "Frequency": 6,
+      "Monetary": 1429700.0
+    },
+    {
+      "PCA1": 0.1665,
+      "PCA2": 0.049,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 59,
+      "Frequency": 13,
+      "Monetary": 5991600.0
+    },
+    {
+      "PCA1": 2.5848,
+      "PCA2": 0.8547,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 17,
+      "Frequency": 21,
+      "Monetary": 32253100.0
+    },
+    {
+      "PCA1": 0.6005,
+      "PCA2": -0.4379,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 13,
+      "Monetary": 8248400.0
+    },
+    {
+      "PCA1": 1.1469,
+      "PCA2": -0.4175,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 19,
+      "Monetary": 7690200.0
+    },
+    {
+      "PCA1": 2.745,
+      "PCA2": 0.7915,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 21,
+      "Monetary": 33881600.0
+    },
+    {
+      "PCA1": -0.9367,
+      "PCA2": -0.2855,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 4,
+      "Monetary": 1116900.0
+    },
+    {
+      "PCA1": -0.2732,
+      "PCA2": -0.2758,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 10,
+      "Monetary": 1989200.0
+    },
+    {
+      "PCA1": 0.5134,
+      "PCA2": -0.4867,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 14,
+      "Monetary": 5512200.0
+    },
+    {
+      "PCA1": 0.185,
+      "PCA2": -0.0687,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 57,
+      "Frequency": 15,
+      "Monetary": 2855400.0
+    },
+    {
+      "PCA1": -0.5627,
+      "PCA2": -0.5883,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 36,
+      "Frequency": 6,
+      "Monetary": 1286200.0
+    },
+    {
+      "PCA1": 3.5025,
+      "PCA2": 1.7365,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 37,
+      "Frequency": 25,
+      "Monetary": 44903900.0
+    },
+    {
+      "PCA1": -0.1956,
+      "PCA2": -0.6681,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 9,
+      "Monetary": 1600100.0
+    },
+    {
+      "PCA1": -3.1983,
+      "PCA2": 3.2628,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 365,
+      "Frequency": 1,
+      "Monetary": 96300.0
+    },
+    {
+      "PCA1": -0.605,
+      "PCA2": -0.7986,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 5,
+      "Monetary": 596400.0
+    },
+    {
+      "PCA1": 1.7407,
+      "PCA2": 0.6872,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 32,
+      "Frequency": 16,
+      "Monetary": 26700700.0
+    },
+    {
+      "PCA1": 0.0939,
+      "PCA2": -0.4628,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 12,
+      "Monetary": 2858700.0
+    },
+    {
+      "PCA1": -1.0282,
+      "PCA2": -0.836,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 1,
+      "Monetary": 50500.0
+    },
+    {
+      "PCA1": -0.2095,
+      "PCA2": -0.8731,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 8,
+      "Monetary": 1310800.0
+    },
+    {
+      "PCA1": -2.0295,
+      "PCA2": 1.0546,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 184,
+      "Frequency": 1,
+      "Monetary": 67200.0
+    },
+    {
+      "PCA1": -0.2118,
+      "PCA2": -0.6463,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 9,
+      "Monetary": 1539500.0
+    },
+    {
+      "PCA1": -0.536,
+      "PCA2": -0.6711,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 6,
+      "Monetary": 1064400.0
+    },
+    {
+      "PCA1": 3.6013,
+      "PCA2": 1.221,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 29,
+      "Monetary": 37517300.0
+    },
+    {
+      "PCA1": -0.7092,
+      "PCA2": -0.85,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 4,
+      "Monetary": 194500.0
+    },
+    {
+      "PCA1": -0.9365,
+      "PCA2": -0.1434,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 76,
+      "Frequency": 5,
+      "Monetary": 801100.0
+    },
+    {
+      "PCA1": -0.7499,
+      "PCA2": -0.2172,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 6,
+      "Monetary": 1409400.0
+    },
+    {
+      "PCA1": -2.2935,
+      "PCA2": 1.5554,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 225,
+      "Frequency": 1,
+      "Monetary": 87800.0
+    },
+    {
+      "PCA1": -1.3369,
+      "PCA2": -0.0555,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 91,
+      "Frequency": 2,
+      "Monetary": 115700.0
+    },
+    {
+      "PCA1": -0.5479,
+      "PCA2": -0.5939,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 6,
+      "Monetary": 1438100.0
+    },
+    {
+      "PCA1": -0.3049,
+      "PCA2": -0.7236,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 8,
+      "Monetary": 1104200.0
+    },
+    {
+      "PCA1": -0.627,
+      "PCA2": -0.4835,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 6,
+      "Monetary": 1174200.0
+    },
+    {
+      "PCA1": 1.4452,
+      "PCA2": -0.1216,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 21,
+      "Monetary": 10965200.0
+    },
+    {
+      "PCA1": -0.8053,
+      "PCA2": 0.4939,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 118,
+      "Frequency": 9,
+      "Monetary": 1683200.0
+    },
+    {
+      "PCA1": 3.0481,
+      "PCA2": 0.82,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 5,
+      "Frequency": 25,
+      "Monetary": 32823800.0
+    },
+    {
+      "PCA1": -0.7227,
+      "PCA2": 0.4209,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 110,
+      "Frequency": 9,
+      "Monetary": 2247200.0
+    },
+    {
+      "PCA1": 0.4754,
+      "PCA2": 0.7095,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 97,
+      "Frequency": 18,
+      "Monetary": 8028000.0
+    },
+    {
+      "PCA1": -0.3995,
+      "PCA2": -0.6807,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 7,
+      "Monetary": 1466500.0
+    },
+    {
+      "PCA1": 0.6512,
+      "PCA2": -0.5504,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 14,
+      "Monetary": 6847400.0
+    },
+    {
+      "PCA1": 0.6012,
+      "PCA2": -0.3474,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 14,
+      "Monetary": 7589100.0
+    },
+    {
+      "PCA1": -0.2731,
+      "PCA2": -0.4523,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 39,
+      "Frequency": 9,
+      "Monetary": 2073900.0
+    },
+    {
+      "PCA1": 3.5945,
+      "PCA2": 2.0036,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 51,
+      "Frequency": 26,
+      "Monetary": 46618500.0
+    },
+    {
+      "PCA1": -1.5288,
+      "PCA2": 0.7691,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 153,
+      "Frequency": 4,
+      "Monetary": 694900.0
+    },
+    {
+      "PCA1": -0.7262,
+      "PCA2": -0.5482,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 5,
+      "Monetary": 745200.0
+    },
+    {
+      "PCA1": 0.9824,
+      "PCA2": 0.1594,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 42,
+      "Frequency": 18,
+      "Monetary": 10793300.0
+    },
+    {
+      "PCA1": -1.441,
+      "PCA2": 0.1391,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 107,
+      "Frequency": 2,
+      "Monetary": 103900.0
+    },
+    {
+      "PCA1": -0.4532,
+      "PCA2": -0.1275,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 9,
+      "Monetary": 1973500.0
+    },
+    {
+      "PCA1": 2.0641,
+      "PCA2": 0.9683,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 39,
+      "Frequency": 18,
+      "Monetary": 30197400.0
+    },
+    {
+      "PCA1": -0.1181,
+      "PCA2": -0.8318,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 9,
+      "Monetary": 1479200.0
+    },
+    {
+      "PCA1": -0.1169,
+      "PCA2": -0.7095,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 9,
+      "Monetary": 2328900.0
+    },
+    {
+      "PCA1": -0.39,
+      "PCA2": -0.6558,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 7,
+      "Monetary": 1758600.0
+    },
+    {
+      "PCA1": -2.2108,
+      "PCA2": 1.5898,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 226,
+      "Frequency": 2,
+      "Monetary": 97900.0
+    },
+    {
+      "PCA1": 0.5359,
+      "PCA2": -0.576,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 13,
+      "Monetary": 6478500.0
+    },
+    {
+      "PCA1": 1.7844,
+      "PCA2": 0.5344,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 24,
+      "Frequency": 17,
+      "Monetary": 24934600.0
+    },
+    {
+      "PCA1": -0.1086,
+      "PCA2": -0.6997,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 10,
+      "Monetary": 1216400.0
+    },
+    {
+      "PCA1": -0.9295,
+      "PCA2": -0.7716,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 2,
+      "Monetary": 470300.0
+    },
+    {
+      "PCA1": 0.1675,
+      "PCA2": -0.5461,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 11,
+      "Monetary": 4523100.0
+    },
+    {
+      "PCA1": -1.6682,
+      "PCA2": 0.3712,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 128,
+      "Frequency": 1,
+      "Monetary": 52100.0
+    },
+    {
+      "PCA1": -0.3276,
+      "PCA2": -0.8315,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 7,
+      "Monetary": 1362900.0
+    },
+    {
+      "PCA1": 0.5074,
+      "PCA2": -0.3701,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 14,
+      "Monetary": 6229700.0
+    },
+    {
+      "PCA1": 0.7115,
+      "PCA2": -0.1319,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 16,
+      "Monetary": 7901100.0
+    },
+    {
+      "PCA1": 0.4983,
+      "PCA2": -0.5712,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 13,
+      "Monetary": 6028400.0
+    },
+    {
+      "PCA1": -0.2904,
+      "PCA2": -0.4488,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 40,
+      "Frequency": 9,
+      "Monetary": 1875700.0
+    },
+    {
+      "PCA1": -1.2628,
+      "PCA2": 0.27,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 112,
+      "Frequency": 4,
+      "Monetary": 712800.0
+    },
+    {
+      "PCA1": -0.338,
+      "PCA2": -0.7704,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 7,
+      "Monetary": 1645500.0
+    },
+    {
+      "PCA1": 0.1872,
+      "PCA2": -0.5477,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 11,
+      "Monetary": 4765000.0
+    },
+    {
+      "PCA1": 2.4827,
+      "PCA2": 0.7908,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 18,
+      "Frequency": 21,
+      "Monetary": 30506800.0
+    },
+    {
+      "PCA1": -0.59,
+      "PCA2": -0.7346,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 5,
+      "Monetary": 1224000.0
+    },
+    {
+      "PCA1": -0.2655,
+      "PCA2": -0.2697,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 10,
+      "Monetary": 2130400.0
+    },
+    {
+      "PCA1": -1.3915,
+      "PCA2": 0.4796,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 130,
+      "Frequency": 4,
+      "Monetary": 487000.0
+    },
+    {
+      "PCA1": -0.105,
+      "PCA2": -0.8041,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 9,
+      "Monetary": 1836600.0
+    },
+    {
+      "PCA1": 1.3894,
+      "PCA2": -0.3221,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 21,
+      "Monetary": 8882200.0
+    },
+    {
+      "PCA1": 1.5028,
+      "PCA2": 0.0629,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 21,
+      "Monetary": 12961700.0
+    },
+    {
+      "PCA1": -2.4933,
+      "PCA2": 1.934,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 256,
+      "Frequency": 1,
+      "Monetary": 100600.0
+    },
+    {
+      "PCA1": 0.2934,
+      "PCA2": -0.4537,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 14,
+      "Monetary": 2910900.0
+    },
+    {
+      "PCA1": -0.7438,
+      "PCA2": -0.7908,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 4,
+      "Monetary": 152600.0
+    },
+    {
+      "PCA1": -0.0547,
+      "PCA2": -0.2169,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 51,
+      "Frequency": 12,
+      "Monetary": 2624900.0
+    },
+    {
+      "PCA1": 3.0175,
+      "PCA2": 1.1772,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 27,
+      "Frequency": 25,
+      "Monetary": 34864500.0
+    },
+    {
+      "PCA1": 4.9532,
+      "PCA2": 1.9314,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 34,
+      "Monetary": 53290000.0
+    },
+    {
+      "PCA1": -0.7717,
+      "PCA2": -0.7264,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 4,
+      "Monetary": 232800.0
+    },
+    {
+      "PCA1": 0.6247,
+      "PCA2": -0.5715,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 14,
+      "Monetary": 6364700.0
+    },
+    {
+      "PCA1": -0.5481,
+      "PCA2": -0.6461,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 6,
+      "Monetary": 1079600.0
+    },
+    {
+      "PCA1": -0.1494,
+      "PCA2": -0.8945,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 8,
+      "Monetary": 1937300.0
+    },
+    {
+      "PCA1": 0.4293,
+      "PCA2": -0.3976,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 14,
+      "Monetary": 5038300.0
+    },
+    {
+      "PCA1": -0.7579,
+      "PCA2": -0.6807,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 4,
+      "Monetary": 720800.0
+    },
+    {
+      "PCA1": -2.049,
+      "PCA2": 1.0911,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 187,
+      "Frequency": 1,
+      "Monetary": 65600.0
+    },
+    {
+      "PCA1": -2.0505,
+      "PCA2": 1.09,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 187,
+      "Frequency": 1,
+      "Monetary": 38400.0
+    },
+    {
+      "PCA1": 3.5396,
+      "PCA2": 1.2349,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 12,
+      "Frequency": 27,
+      "Monetary": 39391200.0
+    },
+    {
+      "PCA1": -0.0706,
+      "PCA2": -0.8807,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 9,
+      "Monetary": 1756500.0
+    },
+    {
+      "PCA1": -0.8038,
+      "PCA2": -0.8765,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 3,
+      "Monetary": 84400.0
+    },
+    {
+      "PCA1": -0.0076,
+      "PCA2": -0.7754,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 10,
+      "Monetary": 1997400.0
+    },
+    {
+      "PCA1": 1.2126,
+      "PCA2": -0.1397,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 19,
+      "Monetary": 10427100.0
+    },
+    {
+      "PCA1": -2.6205,
+      "PCA2": 2.356,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 289,
+      "Frequency": 2,
+      "Monetary": 55100.0
+    },
+    {
+      "PCA1": -0.2794,
+      "PCA2": -0.0522,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 68,
+      "Frequency": 11,
+      "Monetary": 2147100.0
+    },
+    {
+      "PCA1": -0.3747,
+      "PCA2": -0.5537,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 8,
+      "Monetary": 1363700.0
+    },
+    {
+      "PCA1": -2.6118,
+      "PCA2": 2.1517,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 274,
+      "Frequency": 1,
+      "Monetary": 60500.0
+    },
+    {
+      "PCA1": 0.1022,
+      "PCA2": -0.338,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 11,
+      "Monetary": 5100500.0
+    },
+    {
+      "PCA1": -0.4057,
+      "PCA2": -0.1937,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 9,
+      "Monetary": 2132400.0
+    },
+    {
+      "PCA1": -0.2517,
+      "PCA2": -0.9791,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 7,
+      "Monetary": 1332700.0
+    },
+    {
+      "PCA1": 2.8658,
+      "PCA2": 0.8798,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 24,
+      "Monetary": 32176000.0
+    },
+    {
+      "PCA1": -0.1153,
+      "PCA2": -0.6908,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 9,
+      "Monetary": 2476800.0
+    },
+    {
+      "PCA1": -0.8449,
+      "PCA2": -0.5765,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 44,
+      "Frequency": 4,
+      "Monetary": 313700.0
+    },
+    {
+      "PCA1": -2.4841,
+      "PCA2": 1.9066,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 254,
+      "Frequency": 1,
+      "Monetary": 31900.0
+    },
+    {
+      "PCA1": 4.0987,
+      "PCA2": 1.4262,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 3,
+      "Frequency": 29,
+      "Monetary": 45304200.0
+    },
+    {
+      "PCA1": -1.4529,
+      "PCA2": -0.0296,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 1,
+      "Monetary": 87700.0
+    },
+    {
+      "PCA1": 0.965,
+      "PCA2": -0.1524,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 17,
+      "Monetary": 9731500.0
+    },
+    {
+      "PCA1": 1.1521,
+      "PCA2": 0.4774,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 21,
+      "Monetary": 11280700.0
+    },
+    {
+      "PCA1": 0.6098,
+      "PCA2": -0.514,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 14,
+      "Monetary": 6564600.0
+    },
+    {
+      "PCA1": -0.8088,
+      "PCA2": -1.057,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 2,
+      "Monetary": 76000.0
+    },
+    {
+      "PCA1": 0.1306,
+      "PCA2": -0.8009,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 11,
+      "Monetary": 2312400.0
+    },
+    {
+      "PCA1": -1.6823,
+      "PCA2": 1.1151,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 180,
+      "Frequency": 4,
+      "Monetary": 1081200.0
+    },
+    {
+      "PCA1": 0.1554,
+      "PCA2": -0.7323,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 10,
+      "Monetary": 4384600.0
+    },
+    {
+      "PCA1": -2.0937,
+      "PCA2": 1.177,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 194,
+      "Frequency": 1,
+      "Monetary": 76500.0
+    },
+    {
+      "PCA1": -0.5154,
+      "PCA2": -0.6721,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 6,
+      "Monetary": 1322800.0
+    },
+    {
+      "PCA1": 0.012,
+      "PCA2": -0.2127,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 51,
+      "Frequency": 13,
+      "Monetary": 2224300.0
+    },
+    {
+      "PCA1": -0.3426,
+      "PCA2": -0.8608,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 7,
+      "Monetary": 970800.0
+    },
+    {
+      "PCA1": 0.9959,
+      "PCA2": -0.4226,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 17,
+      "Monetary": 8288700.0
+    },
+    {
+      "PCA1": -1.5924,
+      "PCA2": 0.6113,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 144,
+      "Frequency": 3,
+      "Monetary": 89400.0
+    },
+    {
+      "PCA1": 0.1217,
+      "PCA2": 0.3349,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 86,
+      "Frequency": 16,
+      "Monetary": 3505300.0
+    },
+    {
+      "PCA1": -0.9069,
+      "PCA2": -0.5944,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 3,
+      "Monetary": 681000.0
+    },
+    {
+      "PCA1": 0.0137,
+      "PCA2": -0.5645,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 11,
+      "Monetary": 2420900.0
+    },
+    {
+      "PCA1": -2.7477,
+      "PCA2": 2.4077,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 295,
+      "Frequency": 1,
+      "Monetary": 58700.0
+    },
+    {
+      "PCA1": 0.0374,
+      "PCA2": -0.4448,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 10,
+      "Monetary": 4828300.0
+    },
+    {
+      "PCA1": -1.3684,
+      "PCA2": 0.0062,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 96,
+      "Frequency": 2,
+      "Monetary": 131500.0
+    },
+    {
+      "PCA1": 0.1884,
+      "PCA2": -0.5578,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 13,
+      "Monetary": 2138500.0
+    },
+    {
+      "PCA1": 1.1954,
+      "PCA2": -0.3442,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 19,
+      "Monetary": 8812900.0
+    },
+    {
+      "PCA1": 4.2952,
+      "PCA2": 1.6172,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 5,
+      "Frequency": 29,
+      "Monetary": 49128300.0
+    },
+    {
+      "PCA1": -1.5887,
+      "PCA2": 0.4203,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 130,
+      "Frequency": 2,
+      "Monetary": 122300.0
+    },
+    {
+      "PCA1": -0.3582,
+      "PCA2": -0.7692,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 7,
+      "Monetary": 1393900.0
+    },
+    {
+      "PCA1": -0.4082,
+      "PCA2": -0.1958,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 9,
+      "Monetary": 2086200.0
+    },
+    {
+      "PCA1": -0.1639,
+      "PCA2": -0.4836,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 10,
+      "Monetary": 1977900.0
+    },
+    {
+      "PCA1": 0.6831,
+      "PCA2": -0.3658,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 15,
+      "Monetary": 7228800.0
+    },
+    {
+      "PCA1": 2.5032,
+      "PCA2": 0.7455,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 18,
+      "Monetary": 34319700.0
+    },
+    {
+      "PCA1": -0.0119,
+      "PCA2": -0.7788,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 10,
+      "Monetary": 1918800.0
+    },
+    {
+      "PCA1": 1.2837,
+      "PCA2": -0.08,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 20,
+      "Monetary": 10460800.0
+    },
+    {
+      "PCA1": -1.4856,
+      "PCA2": 0.4189,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 128,
+      "Frequency": 3,
+      "Monetary": 150800.0
+    },
+    {
+      "PCA1": -1.381,
+      "PCA2": 0.0307,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 98,
+      "Frequency": 2,
+      "Monetary": 135800.0
+    },
+    {
+      "PCA1": -0.1399,
+      "PCA2": -0.5685,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 10,
+      "Monetary": 1707500.0
+    },
+    {
+      "PCA1": -0.4803,
+      "PCA2": -0.1144,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 68,
+      "Frequency": 9,
+      "Monetary": 1715000.0
+    },
+    {
+      "PCA1": -0.5679,
+      "PCA2": 0.0066,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 79,
+      "Frequency": 9,
+      "Monetary": 1413500.0
+    },
+    {
+      "PCA1": -0.2479,
+      "PCA2": -0.7475,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 8,
+      "Monetary": 1673000.0
+    },
+    {
+      "PCA1": -1.0053,
+      "PCA2": 0.3804,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 115,
+      "Frequency": 7,
+      "Monetary": 914400.0
+    },
+    {
+      "PCA1": 0.3233,
+      "PCA2": 0.3362,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 74,
+      "Frequency": 15,
+      "Monetary": 7390300.0
+    },
+    {
+      "PCA1": 0.9347,
+      "PCA2": -0.1939,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 17,
+      "Monetary": 9059300.0
+    },
+    {
+      "PCA1": -0.8934,
+      "PCA2": 0.2614,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 7,
+      "Monetary": 1540200.0
+    },
+    {
+      "PCA1": -0.6607,
+      "PCA2": -0.9328,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 4,
+      "Monetary": 252600.0
+    },
+    {
+      "PCA1": 0.5872,
+      "PCA2": -0.6014,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 14,
+      "Monetary": 5679000.0
+    },
+    {
+      "PCA1": 1.0792,
+      "PCA2": -0.3184,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 18,
+      "Monetary": 8782300.0
+    },
+    {
+      "PCA1": -0.3139,
+      "PCA2": -0.4155,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 9,
+      "Monetary": 1800900.0
+    },
+    {
+      "PCA1": 1.0839,
+      "PCA2": -0.4046,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 17,
+      "Monetary": 9541700.0
+    },
+    {
+      "PCA1": 0.5283,
+      "PCA2": -0.5474,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 13,
+      "Monetary": 6576100.0
+    },
+    {
+      "PCA1": 0.4205,
+      "PCA2": -0.0751,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 14,
+      "Monetary": 7122200.0
+    },
+    {
+      "PCA1": 0.8549,
+      "PCA2": -0.4513,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 16,
+      "Monetary": 7567400.0
+    },
+    {
+      "PCA1": 0.2082,
+      "PCA2": -0.2788,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 14,
+      "Monetary": 3007700.0
+    },
+    {
+      "PCA1": -1.3253,
+      "PCA2": -0.0809,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 89,
+      "Frequency": 2,
+      "Monetary": 91000.0
+    },
+    {
+      "PCA1": -0.0838,
+      "PCA2": -0.7872,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 9,
+      "Monetary": 2224700.0
+    },
+    {
+      "PCA1": -0.1345,
+      "PCA2": -0.7755,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 9,
+      "Monetary": 1653500.0
+    },
+    {
+      "PCA1": -0.6008,
+      "PCA2": -1.0411,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 4,
+      "Monetary": 284800.0
+    },
+    {
+      "PCA1": -0.3689,
+      "PCA2": 0.2343,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 83,
+      "Frequency": 9,
+      "Monetary": 5520400.0
+    },
+    {
+      "PCA1": -1.4813,
+      "PCA2": 0.5989,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 141,
+      "Frequency": 4,
+      "Monetary": 146100.0
+    },
+    {
+      "PCA1": 0.3589,
+      "PCA2": -0.3354,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 13,
+      "Monetary": 5844500.0
+    },
+    {
+      "PCA1": 0.4951,
+      "PCA2": 0.0047,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 47,
+      "Frequency": 15,
+      "Monetary": 7338600.0
+    },
+    {
+      "PCA1": -0.5171,
+      "PCA2": -0.4275,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 7,
+      "Monetary": 1681500.0
+    },
+    {
+      "PCA1": 0.0542,
+      "PCA2": -0.5875,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 10,
+      "Monetary": 4071700.0
+    },
+    {
+      "PCA1": 1.1331,
+      "PCA2": -0.203,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 19,
+      "Monetary": 8974800.0
+    },
+    {
+      "PCA1": -0.7969,
+      "PCA2": -0.8883,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 3,
+      "Monetary": 92000.0
+    },
+    {
+      "PCA1": 0.3348,
+      "PCA2": -0.4997,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 11,
+      "Monetary": 6987300.0
+    },
+    {
+      "PCA1": -1.0136,
+      "PCA2": -0.1733,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 4,
+      "Monetary": 892900.0
+    },
+    {
+      "PCA1": -0.4517,
+      "PCA2": -0.5662,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 7,
+      "Monetary": 1576500.0
+    },
+    {
+      "PCA1": -0.1406,
+      "PCA2": -0.4824,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 10,
+      "Monetary": 2284900.0
+    },
+    {
+      "PCA1": -0.8811,
+      "PCA2": 0.5723,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 126,
+      "Frequency": 9,
+      "Monetary": 1244400.0
+    },
+    {
+      "PCA1": -2.139,
+      "PCA2": 1.2623,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 201,
+      "Frequency": 1,
+      "Monetary": 76200.0
+    },
+    {
+      "PCA1": 0.6713,
+      "PCA2": 0.2034,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 56,
+      "Frequency": 17,
+      "Monetary": 8382700.0
+    },
+    {
+      "PCA1": -0.2452,
+      "PCA2": -0.7454,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 8,
+      "Monetary": 1722600.0
+    },
+    {
+      "PCA1": -0.1255,
+      "PCA2": -0.5745,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 10,
+      "Monetary": 1851400.0
+    },
+    {
+      "PCA1": 0.3639,
+      "PCA2": 0.0012,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 14,
+      "Monetary": 6915600.0
+    },
+    {
+      "PCA1": -0.7361,
+      "PCA2": -0.1888,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 67,
+      "Frequency": 6,
+      "Monetary": 1780900.0
+    },
+    {
+      "PCA1": -0.5865,
+      "PCA2": -0.8359,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 5,
+      "Monetary": 579300.0
+    },
+    {
+      "PCA1": 3.7506,
+      "PCA2": 1.3366,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 28,
+      "Monetary": 41507800.0
+    },
+    {
+      "PCA1": 0.2282,
+      "PCA2": -0.7201,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 12,
+      "Monetary": 2831100.0
+    },
+    {
+      "PCA1": -0.0227,
+      "PCA2": -0.0213,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 11,
+      "Monetary": 5654100.0
+    },
+    {
+      "PCA1": -0.4877,
+      "PCA2": -0.5428,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 38,
+      "Frequency": 7,
+      "Monetary": 1272700.0
+    },
+    {
+      "PCA1": -2.5473,
+      "PCA2": 2.2236,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 278,
+      "Frequency": 2,
+      "Monetary": 93100.0
+    },
+    {
+      "PCA1": -1.3432,
+      "PCA2": 0.3446,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 120,
+      "Frequency": 4,
+      "Monetary": 187400.0
+    },
+    {
+      "PCA1": 0.2487,
+      "PCA2": -0.7101,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 10,
+      "Monetary": 5734900.0
+    },
+    {
+      "PCA1": 0.4921,
+      "PCA2": -0.4201,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 13,
+      "Monetary": 6978800.0
+    },
+    {
+      "PCA1": 0.5648,
+      "PCA2": 0.2368,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 16,
+      "Monetary": 8528400.0
+    },
+    {
+      "PCA1": 0.053,
+      "PCA2": -0.6546,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 11,
+      "Monetary": 2312600.0
+    },
+    {
+      "PCA1": -0.6944,
+      "PCA2": -0.485,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 6,
+      "Monetary": 298400.0
+    },
+    {
+      "PCA1": 0.434,
+      "PCA2": -0.3103,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 13,
+      "Monetary": 6979600.0
+    },
+    {
+      "PCA1": 1.124,
+      "PCA2": -0.2276,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 19,
+      "Monetary": 8690000.0
+    },
+    {
+      "PCA1": 4.4535,
+      "PCA2": 1.5794,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 32,
+      "Monetary": 47047000.0
+    },
+    {
+      "PCA1": 0.1569,
+      "PCA2": 0.0965,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 14,
+      "Monetary": 4905700.0
+    },
+    {
+      "PCA1": 3.7272,
+      "PCA2": 1.4189,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 27,
+      "Monetary": 43054900.0
+    },
+    {
+      "PCA1": -2.0902,
+      "PCA2": 1.1624,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 193,
+      "Frequency": 1,
+      "Monetary": 22700.0
+    },
+    {
+      "PCA1": -0.1514,
+      "PCA2": 0.1428,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 79,
+      "Frequency": 13,
+      "Monetary": 2547100.0
+    },
+    {
+      "PCA1": 3.3307,
+      "PCA2": 1.1978,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 24,
+      "Monetary": 40314100.0
+    },
+    {
+      "PCA1": -0.9834,
+      "PCA2": 0.4325,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 117,
+      "Frequency": 7,
+      "Monetary": 1550200.0
+    },
+    {
+      "PCA1": -0.9999,
+      "PCA2": 0.0142,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 5,
+      "Monetary": 1060500.0
+    },
+    {
+      "PCA1": 0.3274,
+      "PCA2": -0.5403,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 11,
+      "Monetary": 6615800.0
+    },
+    {
+      "PCA1": -0.3917,
+      "PCA2": -0.7092,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 7,
+      "Monetary": 1372800.0
+    },
+    {
+      "PCA1": -0.317,
+      "PCA2": -0.1547,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 10,
+      "Monetary": 2251300.0
+    },
+    {
+      "PCA1": 0.1229,
+      "PCA2": -0.8591,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 11,
+      "Monetary": 1817800.0
+    },
+    {
+      "PCA1": -2.4987,
+      "PCA2": 1.9296,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 256,
+      "Frequency": 1,
+      "Monetary": 1000.0
+    },
+    {
+      "PCA1": -0.9725,
+      "PCA2": -0.9477,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 1,
+      "Monetary": 3900.0
+    },
+    {
+      "PCA1": -0.5832,
+      "PCA2": -0.1821,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 8,
+      "Monetary": 1218300.0
+    },
+    {
+      "PCA1": -2.2381,
+      "PCA2": 1.4435,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 216,
+      "Frequency": 1,
+      "Monetary": 37600.0
+    },
+    {
+      "PCA1": -1.5401,
+      "PCA2": 0.3203,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 122,
+      "Frequency": 2,
+      "Monetary": 64800.0
+    },
+    {
+      "PCA1": -0.6663,
+      "PCA2": -0.6739,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 5,
+      "Monetary": 658700.0
+    },
+    {
+      "PCA1": -0.3085,
+      "PCA2": 0.3991,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 101,
+      "Frequency": 13,
+      "Monetary": 2275000.0
+    },
+    {
+      "PCA1": -0.605,
+      "PCA2": -0.5353,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 6,
+      "Monetary": 1103900.0
+    },
+    {
+      "PCA1": -0.9618,
+      "PCA2": -0.9566,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 1,
+      "Monetary": 81100.0
+    },
+    {
+      "PCA1": 0.3504,
+      "PCA2": -0.5644,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 14,
+      "Monetary": 2888200.0
+    },
+    {
+      "PCA1": -0.8468,
+      "PCA2": -0.526,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 47,
+      "Frequency": 4,
+      "Monetary": 633000.0
+    },
+    {
+      "PCA1": -1.053,
+      "PCA2": -0.1006,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 81,
+      "Frequency": 4,
+      "Monetary": 883300.0
+    },
+    {
+      "PCA1": 3.3392,
+      "PCA2": 2.0117,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 66,
+      "Frequency": 27,
+      "Monetary": 42109600.0
+    },
+    {
+      "PCA1": 2.6731,
+      "PCA2": 0.8005,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 20,
+      "Monetary": 34305000.0
+    },
+    {
+      "PCA1": 0.1193,
+      "PCA2": -0.4631,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 11,
+      "Monetary": 4469400.0
+    },
+    {
+      "PCA1": -0.6932,
+      "PCA2": -0.0995,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 73,
+      "Frequency": 7,
+      "Monetary": 1654100.0
+    },
+    {
+      "PCA1": 0.6626,
+      "PCA2": -0.0148,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 16,
+      "Monetary": 8071800.0
+    },
+    {
+      "PCA1": -1.566,
+      "PCA2": 0.369,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 126,
+      "Frequency": 2,
+      "Monetary": 64300.0
+    },
+    {
+      "PCA1": 1.3242,
+      "PCA2": -0.1313,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 21,
+      "Monetary": 9345500.0
+    },
+    {
+      "PCA1": 0.8264,
+      "PCA2": -0.3353,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 16,
+      "Monetary": 7991800.0
+    },
+    {
+      "PCA1": 1.0562,
+      "PCA2": 0.0967,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 18,
+      "Monetary": 11314500.0
+    },
+    {
+      "PCA1": 2.5801,
+      "PCA2": 0.7469,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 21,
+      "Monetary": 31458400.0
+    },
+    {
+      "PCA1": -0.0213,
+      "PCA2": -0.2771,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 12,
+      "Monetary": 2644200.0
+    },
+    {
+      "PCA1": 0.833,
+      "PCA2": 0.3384,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 62,
+      "Frequency": 19,
+      "Monetary": 8807300.0
+    },
+    {
+      "PCA1": -0.3033,
+      "PCA2": -0.6356,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 8,
+      "Monetary": 1723700.0
+    },
+    {
+      "PCA1": -0.0981,
+      "PCA2": -0.9199,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 9,
+      "Monetary": 1137000.0
+    },
+    {
+      "PCA1": -0.2612,
+      "PCA2": -0.3704,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 10,
+      "Monetary": 1498700.0
+    },
+    {
+      "PCA1": -1.4691,
+      "PCA2": -0.0079,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 97,
+      "Frequency": 1,
+      "Monetary": 27300.0
+    },
+    {
+      "PCA1": -0.8516,
+      "PCA2": -0.2839,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 64,
+      "Frequency": 5,
+      "Monetary": 935400.0
+    },
+    {
+      "PCA1": -1.8029,
+      "PCA2": 0.822,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 163,
+      "Frequency": 2,
+      "Monetary": 107300.0
+    },
+    {
+      "PCA1": -1.5519,
+      "PCA2": 0.1517,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 110,
+      "Frequency": 1,
+      "Monetary": 50800.0
+    },
+    {
+      "PCA1": 0.3969,
+      "PCA2": -0.4991,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 12,
+      "Monetary": 6502900.0
+    },
+    {
+      "PCA1": 0.0222,
+      "PCA2": -0.3811,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 38,
+      "Frequency": 12,
+      "Monetary": 2494400.0
+    },
+    {
+      "PCA1": -0.5318,
+      "PCA2": 0.0322,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 76,
+      "Frequency": 8,
+      "Monetary": 3338100.0
+    },
+    {
+      "PCA1": 0.4475,
+      "PCA2": -0.7126,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 14,
+      "Monetary": 3126900.0
+    },
+    {
+      "PCA1": -1.6063,
+      "PCA2": 0.6523,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 147,
+      "Frequency": 3,
+      "Monetary": 190700.0
+    },
+    {
+      "PCA1": -0.1292,
+      "PCA2": 0.4899,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 98,
+      "Frequency": 13,
+      "Monetary": 5196700.0
+    },
+    {
+      "PCA1": -0.4262,
+      "PCA2": -0.0508,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 72,
+      "Frequency": 10,
+      "Monetary": 1557200.0
+    },
+    {
+      "PCA1": 0.675,
+      "PCA2": -0.2856,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 15,
+      "Monetary": 7671600.0
+    },
+    {
+      "PCA1": -0.2542,
+      "PCA2": -0.2434,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 53,
+      "Frequency": 10,
+      "Monetary": 2453700.0
+    },
+    {
+      "PCA1": -1.4732,
+      "PCA2": 0.394,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 126,
+      "Frequency": 3,
+      "Monetary": 140500.0
+    },
+    {
+      "PCA1": 1.6663,
+      "PCA2": -0.0954,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 23,
+      "Monetary": 11411900.0
+    },
+    {
+      "PCA1": -1.1382,
+      "PCA2": 0.0744,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 4,
+      "Monetary": 980500.0
+    },
+    {
+      "PCA1": 0.3588,
+      "PCA2": -0.5814,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 12,
+      "Monetary": 5453400.0
+    },
+    {
+      "PCA1": -1.0385,
+      "PCA2": -0.2278,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 73,
+      "Frequency": 4,
+      "Monetary": 202200.0
+    },
+    {
+      "PCA1": -1.2382,
+      "PCA2": -0.0431,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 90,
+      "Frequency": 3,
+      "Monetary": 182200.0
+    },
+    {
+      "PCA1": -2.6718,
+      "PCA2": 2.26,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 283,
+      "Frequency": 1,
+      "Monetary": 27800.0
+    },
+    {
+      "PCA1": -0.1389,
+      "PCA2": -0.5851,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 10,
+      "Monetary": 1608300.0
+    },
+    {
+      "PCA1": 0.4974,
+      "PCA2": -0.5893,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 13,
+      "Monetary": 5893000.0
+    },
+    {
+      "PCA1": -1.4353,
+      "PCA2": -0.0676,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 92,
+      "Frequency": 1,
+      "Monetary": 55300.0
+    },
+    {
+      "PCA1": -0.5212,
+      "PCA2": -0.9052,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 5,
+      "Monetary": 947000.0
+    },
+    {
+      "PCA1": 1.0805,
+      "PCA2": -0.2481,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 18,
+      "Monetary": 9277500.0
+    },
+    {
+      "PCA1": 1.098,
+      "PCA2": -0.4422,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 18,
+      "Monetary": 8179600.0
+    },
+    {
+      "PCA1": -2.068,
+      "PCA2": 1.3219,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 204,
+      "Frequency": 2,
+      "Monetary": 107400.0
+    },
+    {
+      "PCA1": -0.5503,
+      "PCA2": -0.4539,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 7,
+      "Monetary": 1075300.0
+    },
+    {
+      "PCA1": 0.6358,
+      "PCA2": -0.5075,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 15,
+      "Monetary": 5657200.0
+    },
+    {
+      "PCA1": -1.006,
+      "PCA2": 0.5012,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 122,
+      "Frequency": 7,
+      "Monetary": 1727400.0
+    },
+    {
+      "PCA1": -2.9619,
+      "PCA2": 2.8094,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 328,
+      "Frequency": 1,
+      "Monetary": 45200.0
+    },
+    {
+      "PCA1": -1.0972,
+      "PCA2": -0.2604,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 71,
+      "Frequency": 3,
+      "Monetary": 512300.0
+    },
+    {
+      "PCA1": 3.4272,
+      "PCA2": 1.1075,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 26,
+      "Monetary": 38365800.0
+    },
+    {
+      "PCA1": 0.0234,
+      "PCA2": -0.6261,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 11,
+      "Monetary": 2127400.0
+    },
+    {
+      "PCA1": -2.484,
+      "PCA2": 1.9067,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 254,
+      "Frequency": 1,
+      "Monetary": 33500.0
+    },
+    {
+      "PCA1": -2.2359,
+      "PCA2": 1.6391,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 230,
+      "Frequency": 2,
+      "Monetary": 111500.0
+    },
+    {
+      "PCA1": 1.3784,
+      "PCA2": -0.23,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 20,
+      "Monetary": 10654700.0
+    },
+    {
+      "PCA1": -1.426,
+      "PCA2": 0.1163,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 105,
+      "Frequency": 2,
+      "Monetary": 141200.0
+    },
+    {
+      "PCA1": -2.2104,
+      "PCA2": 1.9779,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 254,
+      "Frequency": 4,
+      "Monetary": 175500.0
+    },
+    {
+      "PCA1": -0.3256,
+      "PCA2": -0.584,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 8,
+      "Monetary": 1789800.0
+    },
+    {
+      "PCA1": -1.0624,
+      "PCA2": -0.5826,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 2,
+      "Monetary": 50000.0
+    },
+    {
+      "PCA1": -0.591,
+      "PCA2": -0.3649,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 53,
+      "Frequency": 7,
+      "Monetary": 1157700.0
+    },
+    {
+      "PCA1": 1.3944,
+      "PCA2": 0.1185,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 22,
+      "Monetary": 10662500.0
+    },
+    {
+      "PCA1": -0.4596,
+      "PCA2": -0.0459,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 71,
+      "Frequency": 9,
+      "Monetary": 2447300.0
+    },
+    {
+      "PCA1": 0.687,
+      "PCA2": 0.323,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 18,
+      "Monetary": 8113000.0
+    },
+    {
+      "PCA1": -1.3379,
+      "PCA2": 0.8233,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 153,
+      "Frequency": 6,
+      "Monetary": 944600.0
+    },
+    {
+      "PCA1": 0.9307,
+      "PCA2": -0.3673,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 18,
+      "Monetary": 6541500.0
+    },
+    {
+      "PCA1": -3.1281,
+      "PCA2": 3.128,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 354,
+      "Frequency": 1,
+      "Monetary": 80000.0
+    },
+    {
+      "PCA1": 0.3392,
+      "PCA2": -0.5828,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 11,
+      "Monetary": 6478200.0
+    },
+    {
+      "PCA1": 2.1683,
+      "PCA2": 0.6871,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 18,
+      "Frequency": 18,
+      "Monetary": 29620200.0
+    },
+    {
+      "PCA1": -0.3017,
+      "PCA2": -0.4577,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 40,
+      "Frequency": 9,
+      "Monetary": 1670500.0
+    },
+    {
+      "PCA1": -0.8363,
+      "PCA2": 0.3446,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 108,
+      "Frequency": 8,
+      "Monetary": 1554800.0
+    },
+    {
+      "PCA1": 0.2287,
+      "PCA2": 0.0118,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 13,
+      "Monetary": 6537600.0
+    },
+    {
+      "PCA1": -1.1324,
+      "PCA2": -0.6415,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 1,
+      "Monetary": 36900.0
+    },
+    {
+      "PCA1": -0.2118,
+      "PCA2": -0.5942,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 9,
+      "Monetary": 1895300.0
+    },
+    {
+      "PCA1": 0.2324,
+      "PCA2": -0.1272,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 12,
+      "Monetary": 6923900.0
+    },
+    {
+      "PCA1": -2.0188,
+      "PCA2": 1.2397,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 197,
+      "Frequency": 2,
+      "Monetary": 179000.0
+    },
+    {
+      "PCA1": -1.7163,
+      "PCA2": 0.6482,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 149,
+      "Frequency": 2,
+      "Monetary": 35600.0
+    },
+    {
+      "PCA1": 0.0856,
+      "PCA2": -0.3449,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 40,
+      "Frequency": 13,
+      "Monetary": 2268600.0
+    },
+    {
+      "PCA1": 0.0477,
+      "PCA2": -0.8354,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 10,
+      "Monetary": 2299800.0
+    },
+    {
+      "PCA1": -0.2744,
+      "PCA2": -0.2106,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 53,
+      "Frequency": 9,
+      "Monetary": 3704400.0
+    },
+    {
+      "PCA1": 1.448,
+      "PCA2": -0.1541,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 21,
+      "Monetary": 10780100.0
+    },
+    {
+      "PCA1": -2.9741,
+      "PCA2": 2.8344,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 330,
+      "Frequency": 1,
+      "Monetary": 57700.0
+    },
+    {
+      "PCA1": -0.6975,
+      "PCA2": -0.6641,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 5,
+      "Monetary": 324500.0
+    },
+    {
+      "PCA1": -0.3361,
+      "PCA2": 0.024,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 11,
+      "Monetary": 1937100.0
+    },
+    {
+      "PCA1": 2.8669,
+      "PCA2": 0.8223,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 5,
+      "Frequency": 22,
+      "Monetary": 34369700.0
+    },
+    {
+      "PCA1": -3.1498,
+      "PCA2": 3.1627,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 357,
+      "Frequency": 1,
+      "Monetary": 37100.0
+    },
+    {
+      "PCA1": -1.8537,
+      "PCA2": 0.7264,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 157,
+      "Frequency": 1,
+      "Monetary": 89200.0
+    },
+    {
+      "PCA1": -0.3419,
+      "PCA2": -0.7909,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 7,
+      "Monetary": 1455800.0
+    },
+    {
+      "PCA1": -0.5325,
+      "PCA2": -0.651,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 6,
+      "Monetary": 1246300.0
+    },
+    {
+      "PCA1": 1.1045,
+      "PCA2": 0.0863,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 19,
+      "Monetary": 10578000.0
+    },
+    {
+      "PCA1": -1.1566,
+      "PCA2": -0.3975,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 2,
+      "Monetary": 101400.0
+    },
+    {
+      "PCA1": 0.7954,
+      "PCA2": -0.2039,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 16,
+      "Monetary": 8489400.0
+    },
+    {
+      "PCA1": 0.302,
+      "PCA2": -0.6124,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 11,
+      "Monetary": 5798700.0
+    },
+    {
+      "PCA1": -0.7491,
+      "PCA2": 0.0121,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 82,
+      "Frequency": 7,
+      "Monetary": 1695000.0
+    },
+    {
+      "PCA1": -1.1898,
+      "PCA2": -0.5311,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 1,
+      "Monetary": 51100.0
+    },
+    {
+      "PCA1": -1.7492,
+      "PCA2": 0.9547,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 171,
+      "Frequency": 3,
+      "Monetary": 415200.0
+    },
+    {
+      "PCA1": -1.0881,
+      "PCA2": -0.7276,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 38,
+      "Frequency": 1,
+      "Monetary": 18300.0
+    },
+    {
+      "PCA1": -1.0939,
+      "PCA2": -0.1332,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 81,
+      "Frequency": 4,
+      "Monetary": 135700.0
+    },
+    {
+      "PCA1": 0.6398,
+      "PCA2": -0.5768,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 14,
+      "Monetary": 6521700.0
+    },
+    {
+      "PCA1": -0.6221,
+      "PCA2": -1.0061,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 4,
+      "Monetary": 248700.0
+    },
+    {
+      "PCA1": -0.6303,
+      "PCA2": 0.0404,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 81,
+      "Frequency": 8,
+      "Monetary": 2128600.0
+    },
+    {
+      "PCA1": 0.7323,
+      "PCA2": 0.0265,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 17,
+      "Monetary": 7961400.0
+    },
+    {
+      "PCA1": -0.6528,
+      "PCA2": -0.7152,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 5,
+      "Monetary": 550800.0
+    },
+    {
+      "PCA1": -0.5256,
+      "PCA2": -0.4169,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 47,
+      "Frequency": 7,
+      "Monetary": 1643600.0
+    },
+    {
+      "PCA1": 1.1953,
+      "PCA2": -0.1882,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 19,
+      "Monetary": 9873700.0
+    },
+    {
+      "PCA1": -0.4977,
+      "PCA2": -0.7273,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 6,
+      "Monetary": 1174500.0
+    },
+    {
+      "PCA1": -0.1412,
+      "PCA2": -0.6768,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 9,
+      "Monetary": 2239500.0
+    },
+    {
+      "PCA1": -0.1798,
+      "PCA2": -0.6381,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 9,
+      "Monetary": 2007200.0
+    },
+    {
+      "PCA1": -2.5529,
+      "PCA2": 2.0425,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 265,
+      "Frequency": 1,
+      "Monetary": 73900.0
+    },
+    {
+      "PCA1": 0.2419,
+      "PCA2": 0.4275,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 83,
+      "Frequency": 15,
+      "Monetary": 6966600.0
+    },
+    {
+      "PCA1": 1.1857,
+      "PCA2": -0.1438,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 19,
+      "Monetary": 10053900.0
+    },
+    {
+      "PCA1": 1.423,
+      "PCA2": -0.1598,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 20,
+      "Monetary": 11706300.0
+    },
+    {
+      "PCA1": -1.4298,
+      "PCA2": 0.6052,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 139,
+      "Frequency": 4,
+      "Monetary": 850800.0
+    },
+    {
+      "PCA1": -0.5986,
+      "PCA2": -0.7588,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 5,
+      "Monetary": 950000.0
+    },
+    {
+      "PCA1": 4.5006,
+      "PCA2": 1.4845,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 2,
+      "Frequency": 34,
+      "Monetary": 44432800.0
+    },
+    {
+      "PCA1": -2.8445,
+      "PCA2": 2.5908,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 310,
+      "Frequency": 1,
+      "Monetary": 63500.0
+    },
+    {
+      "PCA1": -0.4139,
+      "PCA2": -0.6401,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 7,
+      "Monetary": 1558400.0
+    },
+    {
+      "PCA1": -0.1427,
+      "PCA2": -0.678,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 9,
+      "Monetary": 2211600.0
+    },
+    {
+      "PCA1": 0.1012,
+      "PCA2": -0.6163,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 11,
+      "Monetary": 3192800.0
+    },
+    {
+      "PCA1": 0.6322,
+      "PCA2": -0.4474,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 13,
+      "Monetary": 8592000.0
+    },
+    {
+      "PCA1": 0.6463,
+      "PCA2": -0.5228,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 13,
+      "Monetary": 8259900.0
+    },
+    {
+      "PCA1": -0.2818,
+      "PCA2": 0.1161,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 10,
+      "Monetary": 4548800.0
+    },
+    {
+      "PCA1": -0.8199,
+      "PCA2": -0.8372,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 3,
+      "Monetary": 145700.0
+    },
+    {
+      "PCA1": 0.7785,
+      "PCA2": 0.1705,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 18,
+      "Monetary": 8249800.0
+    },
+    {
+      "PCA1": -1.9619,
+      "PCA2": 1.129,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 188,
+      "Frequency": 2,
+      "Monetary": 156600.0
+    },
+    {
+      "PCA1": 1.4194,
+      "PCA2": -0.2494,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 20,
+      "Monetary": 11049500.0
+    },
+    {
+      "PCA1": -0.4361,
+      "PCA2": -0.8343,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 6,
+      "Monetary": 1236800.0
+    },
+    {
+      "PCA1": -0.5829,
+      "PCA2": -1.0963,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 4,
+      "Monetary": 137900.0
+    },
+    {
+      "PCA1": -0.3671,
+      "PCA2": -0.7242,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 7,
+      "Monetary": 1586200.0
+    },
+    {
+      "PCA1": -0.2499,
+      "PCA2": -0.5206,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 9,
+      "Monetary": 1907400.0
+    },
+    {
+      "PCA1": -2.3857,
+      "PCA2": 1.7248,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 239,
+      "Frequency": 1,
+      "Monetary": 58200.0
+    },
+    {
+      "PCA1": 0.3662,
+      "PCA2": -0.5614,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 11,
+      "Monetary": 6971100.0
+    },
+    {
+      "PCA1": -2.9203,
+      "PCA2": 2.7385,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 322,
+      "Frequency": 1,
+      "Monetary": 96200.0
+    },
+    {
+      "PCA1": -0.5376,
+      "PCA2": -0.8836,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 5,
+      "Monetary": 883600.0
+    },
+    {
+      "PCA1": 0.4881,
+      "PCA2": -0.2294,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 14,
+      "Monetary": 6940400.0
+    },
+    {
+      "PCA1": -0.3423,
+      "PCA2": -0.4381,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 9,
+      "Monetary": 1282100.0
+    },
+    {
+      "PCA1": -0.3867,
+      "PCA2": -0.7051,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 7,
+      "Monetary": 1465000.0
+    },
+    {
+      "PCA1": 2.5553,
+      "PCA2": 0.7618,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 13,
+      "Frequency": 21,
+      "Monetary": 31241600.0
+    },
+    {
+      "PCA1": -0.2543,
+      "PCA2": -0.5241,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 9,
+      "Monetary": 1827200.0
+    },
+    {
+      "PCA1": 0.5055,
+      "PCA2": -0.6349,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 13,
+      "Monetary": 5686500.0
+    },
+    {
+      "PCA1": -1.1712,
+      "PCA2": -0.5684,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 51,
+      "Frequency": 1,
+      "Monetary": 36000.0
+    },
+    {
+      "PCA1": -0.2782,
+      "PCA2": -0.737,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 8,
+      "Monetary": 1354900.0
+    },
+    {
+      "PCA1": 2.3936,
+      "PCA2": 0.7482,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 19,
+      "Monetary": 31645200.0
+    },
+    {
+      "PCA1": -1.1968,
+      "PCA2": 0.149,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 102,
+      "Frequency": 4,
+      "Monetary": 735800.0
+    },
+    {
+      "PCA1": 0.2385,
+      "PCA2": -0.4171,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 12,
+      "Monetary": 5027500.0
+    },
+    {
+      "PCA1": -1.2265,
+      "PCA2": -0.0685,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 3,
+      "Monetary": 158600.0
+    },
+    {
+      "PCA1": 3.7426,
+      "PCA2": 1.417,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 16,
+      "Frequency": 28,
+      "Monetary": 41952800.0
+    },
+    {
+      "PCA1": -1.1999,
+      "PCA2": -0.1166,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 84,
+      "Frequency": 3,
+      "Monetary": 173100.0
+    },
+    {
+      "PCA1": 0.3081,
+      "PCA2": -0.5729,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 11,
+      "Monetary": 6145600.0
+    },
+    {
+      "PCA1": -0.0846,
+      "PCA2": -0.8918,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 9,
+      "Monetary": 1501600.0
+    },
+    {
+      "PCA1": -1.171,
+      "PCA2": -0.3743,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 2,
+      "Monetary": 74500.0
+    },
+    {
+      "PCA1": -1.1528,
+      "PCA2": 0.0801,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 96,
+      "Frequency": 4,
+      "Monetary": 831600.0
+    },
+    {
+      "PCA1": -1.7258,
+      "PCA2": 0.6754,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 151,
+      "Frequency": 2,
+      "Monetary": 99200.0
+    },
+    {
+      "PCA1": -0.2422,
+      "PCA2": -0.6737,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 8,
+      "Monetary": 2248400.0
+    },
+    {
+      "PCA1": -1.2262,
+      "PCA2": 0.389,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 120,
+      "Frequency": 5,
+      "Monetary": 707400.0
+    },
+    {
+      "PCA1": -0.7673,
+      "PCA2": -0.1443,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 71,
+      "Frequency": 6,
+      "Monetary": 1681900.0
+    },
+    {
+      "PCA1": 3.5173,
+      "PCA2": 1.1131,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 27,
+      "Monetary": 38275800.0
+    },
+    {
+      "PCA1": -1.247,
+      "PCA2": -0.4206,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 1,
+      "Monetary": 68500.0
+    },
+    {
+      "PCA1": 1.3138,
+      "PCA2": -0.3681,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 20,
+      "Monetary": 8884500.0
+    },
+    {
+      "PCA1": 1.3938,
+      "PCA2": -0.2871,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 20,
+      "Monetary": 10463600.0
+    },
+    {
+      "PCA1": 1.0223,
+      "PCA2": 0.073,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 38,
+      "Frequency": 19,
+      "Monetary": 9431400.0
+    },
+    {
+      "PCA1": 1.0972,
+      "PCA2": -0.2694,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 18,
+      "Monetary": 9346700.0
+    },
+    {
+      "PCA1": 1.7238,
+      "PCA2": 0.7321,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 41,
+      "Frequency": 18,
+      "Monetary": 24216800.0
+    },
+    {
+      "PCA1": 3.2872,
+      "PCA2": 1.9152,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 60,
+      "Frequency": 26,
+      "Monetary": 42070000.0
+    },
+    {
+      "PCA1": 0.6525,
+      "PCA2": -0.532,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 14,
+      "Monetary": 6990100.0
+    },
+    {
+      "PCA1": 0.2338,
+      "PCA2": -0.5627,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 11,
+      "Monetary": 5260700.0
+    },
+    {
+      "PCA1": -2.9598,
+      "PCA2": 2.8111,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 328,
+      "Frequency": 1,
+      "Monetary": 82700.0
+    },
+    {
+      "PCA1": 0.9547,
+      "PCA2": -0.2473,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 17,
+      "Monetary": 8953700.0
+    },
+    {
+      "PCA1": -2.4302,
+      "PCA2": 1.8108,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 246,
+      "Frequency": 1,
+      "Monetary": 71500.0
+    },
+    {
+      "PCA1": 2.7144,
+      "PCA2": 1.0902,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 19,
+      "Frequency": 19,
+      "Monetary": 38095500.0
+    },
+    {
+      "PCA1": -0.2305,
+      "PCA2": -0.9103,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 7,
+      "Monetary": 2074200.0
+    },
+    {
+      "PCA1": -0.7444,
+      "PCA2": -0.7393,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 4,
+      "Monetary": 496000.0
+    },
+    {
+      "PCA1": 0.6199,
+      "PCA2": -0.5407,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 14,
+      "Monetary": 6512400.0
+    },
+    {
+      "PCA1": -1.1774,
+      "PCA2": -0.362,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 2,
+      "Monetary": 76800.0
+    },
+    {
+      "PCA1": -2.0321,
+      "PCA2": 1.0526,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 184,
+      "Frequency": 1,
+      "Monetary": 19600.0
+    },
+    {
+      "PCA1": -0.3166,
+      "PCA2": -0.3309,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 9,
+      "Monetary": 2341600.0
+    },
+    {
+      "PCA1": -1.4113,
+      "PCA2": -0.1179,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 1,
+      "Monetary": 21100.0
+    },
+    {
+      "PCA1": 0.818,
+      "PCA2": -0.0614,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 17,
+      "Monetary": 8463500.0
+    },
+    {
+      "PCA1": 0.1065,
+      "PCA2": -0.5222,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 12,
+      "Monetary": 2615600.0
+    },
+    {
+      "PCA1": 1.012,
+      "PCA2": 0.38,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 59,
+      "Frequency": 20,
+      "Monetary": 10103900.0
+    },
+    {
+      "PCA1": -0.1829,
+      "PCA2": -0.6233,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 9,
+      "Monetary": 2068700.0
+    },
+    {
+      "PCA1": -0.9585,
+      "PCA2": -0.462,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 53,
+      "Frequency": 3,
+      "Monetary": 920900.0
+    },
+    {
+      "PCA1": 3.8616,
+      "PCA2": 1.2374,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 3,
+      "Frequency": 29,
+      "Monetary": 40972200.0
+    },
+    {
+      "PCA1": -1.0597,
+      "PCA2": 0.3166,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 111,
+      "Frequency": 6,
+      "Monetary": 1066300.0
+    },
+    {
+      "PCA1": 0.1213,
+      "PCA2": -0.0596,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 12,
+      "Monetary": 5956700.0
+    },
+    {
+      "PCA1": 0.6747,
+      "PCA2": -0.5286,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 15,
+      "Monetary": 6012500.0
+    },
+    {
+      "PCA1": 1.5126,
+      "PCA2": -0.0475,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 22,
+      "Monetary": 11050200.0
+    },
+    {
+      "PCA1": -1.461,
+      "PCA2": 1.0895,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 174,
+      "Frequency": 6,
+      "Monetary": 1177300.0
+    },
+    {
+      "PCA1": 0.5918,
+      "PCA2": -0.3029,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 14,
+      "Monetary": 7771300.0
+    },
+    {
+      "PCA1": 0.9835,
+      "PCA2": -0.349,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 16,
+      "Monetary": 9916400.0
+    },
+    {
+      "PCA1": -1.1334,
+      "PCA2": 0.4486,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 122,
+      "Frequency": 6,
+      "Monetary": 1019200.0
+    },
+    {
+      "PCA1": 0.222,
+      "PCA2": -0.4507,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 11,
+      "Monetary": 5873000.0
+    },
+    {
+      "PCA1": -0.8037,
+      "PCA2": -1.0702,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 2,
+      "Monetary": 52400.0
+    },
+    {
+      "PCA1": -0.0989,
+      "PCA2": -0.7645,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 9,
+      "Monetary": 2184300.0
+    },
+    {
+      "PCA1": -1.15,
+      "PCA2": -0.6035,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 1,
+      "Monetary": 68900.0
+    },
+    {
+      "PCA1": -1.6233,
+      "PCA2": 0.7254,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 152,
+      "Frequency": 3,
+      "Monetary": 469900.0
+    },
+    {
+      "PCA1": -0.6065,
+      "PCA2": -0.3599,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 7,
+      "Monetary": 992900.0
+    },
+    {
+      "PCA1": 0.1184,
+      "PCA2": -0.7759,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 11,
+      "Monetary": 2326600.0
+    },
+    {
+      "PCA1": 3.1161,
+      "PCA2": 1.4637,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 39,
+      "Frequency": 25,
+      "Monetary": 38083000.0
+    },
+    {
+      "PCA1": -0.4166,
+      "PCA2": -0.6423,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 7,
+      "Monetary": 1508500.0
+    },
+    {
+      "PCA1": -0.5838,
+      "PCA2": -0.799,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 5,
+      "Monetary": 866000.0
+    },
+    {
+      "PCA1": 2.1784,
+      "PCA2": 0.6116,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 16,
+      "Frequency": 19,
+      "Monetary": 27949300.0
+    },
+    {
+      "PCA1": 4.0952,
+      "PCA2": 1.7496,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 19,
+      "Frequency": 28,
+      "Monetary": 48748400.0
+    },
+    {
+      "PCA1": 5.0731,
+      "PCA2": 1.9921,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 5,
+      "Frequency": 34,
+      "Monetary": 55244600.0
+    },
+    {
+      "PCA1": -2.5618,
+      "PCA2": 2.0528,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 266,
+      "Frequency": 1,
+      "Monetary": 30300.0
+    },
+    {
+      "PCA1": 0.7801,
+      "PCA2": -0.4825,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 14,
+      "Monetary": 8966100.0
+    },
+    {
+      "PCA1": -2.1902,
+      "PCA2": 1.5541,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 223,
+      "Frequency": 2,
+      "Monetary": 119600.0
+    },
+    {
+      "PCA1": 0.3694,
+      "PCA2": -0.1883,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 36,
+      "Frequency": 13,
+      "Monetary": 6981700.0
+    },
+    {
+      "PCA1": 1.2235,
+      "PCA2": 0.0802,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 20,
+      "Monetary": 10778100.0
+    },
+    {
+      "PCA1": -0.6101,
+      "PCA2": -0.2587,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 7,
+      "Monetary": 1636900.0
+    },
+    {
+      "PCA1": -0.2173,
+      "PCA2": 0.1706,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 78,
+      "Frequency": 11,
+      "Monetary": 4461600.0
+    },
+    {
+      "PCA1": 2.6312,
+      "PCA2": 1.6057,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 61,
+      "Frequency": 22,
+      "Monetary": 36679600.0
+    },
+    {
+      "PCA1": -0.3587,
+      "PCA2": -0.5236,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 36,
+      "Frequency": 8,
+      "Monetary": 1775600.0
+    },
+    {
+      "PCA1": 1.7202,
+      "PCA2": -0.032,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 24,
+      "Monetary": 11249800.0
+    },
+    {
+      "PCA1": -0.8843,
+      "PCA2": -0.012,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 84,
+      "Frequency": 6,
+      "Monetary": 1081400.0
+    },
+    {
+      "PCA1": 0.7762,
+      "PCA2": -0.1357,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 15,
+      "Monetary": 9992700.0
+    },
+    {
+      "PCA1": -0.7095,
+      "PCA2": -0.3064,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 59,
+      "Frequency": 6,
+      "Monetary": 1320600.0
+    },
+    {
+      "PCA1": -0.3963,
+      "PCA2": -0.4669,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 8,
+      "Monetary": 1678800.0
+    },
+    {
+      "PCA1": -0.2276,
+      "PCA2": -0.5548,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 9,
+      "Monetary": 1960400.0
+    },
+    {
+      "PCA1": -0.8207,
+      "PCA2": -1.0318,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 2,
+      "Monetary": 96000.0
+    },
+    {
+      "PCA1": 0.2325,
+      "PCA2": -0.3178,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 12,
+      "Monetary": 5626100.0
+    },
+    {
+      "PCA1": -0.0912,
+      "PCA2": -0.4746,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 35,
+      "Frequency": 11,
+      "Monetary": 1686200.0
+    },
+    {
+      "PCA1": -0.193,
+      "PCA2": -0.7007,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 9,
+      "Monetary": 1410800.0
+    },
+    {
+      "PCA1": -0.557,
+      "PCA2": -0.3899,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 7,
+      "Monetary": 1424200.0
+    },
+    {
+      "PCA1": 4.2269,
+      "PCA2": 1.618,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 30,
+      "Monetary": 46971000.0
+    },
+    {
+      "PCA1": -0.453,
+      "PCA2": -1.007,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 5,
+      "Monetary": 1128500.0
+    },
+    {
+      "PCA1": -0.1986,
+      "PCA2": -0.6878,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 9,
+      "Monetary": 1426200.0
+    },
+    {
+      "PCA1": -0.631,
+      "PCA2": -0.4693,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 6,
+      "Monetary": 1220200.0
+    },
+    {
+      "PCA1": 3.2206,
+      "PCA2": 1.0755,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 9,
+      "Frequency": 24,
+      "Monetary": 38066600.0
+    },
+    {
+      "PCA1": 0.9819,
+      "PCA2": -0.4337,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 17,
+      "Monetary": 8032600.0
+    },
+    {
+      "PCA1": 0.4521,
+      "PCA2": -0.3211,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 16,
+      "Monetary": 3281100.0
+    },
+    {
+      "PCA1": 2.8612,
+      "PCA2": 1.0322,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 23,
+      "Frequency": 24,
+      "Monetary": 33155100.0
+    },
+    {
+      "PCA1": -0.2127,
+      "PCA2": -0.5115,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 8,
+      "Monetary": 3732300.0
+    },
+    {
+      "PCA1": 0.4449,
+      "PCA2": -0.2465,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 14,
+      "Monetary": 6268100.0
+    },
+    {
+      "PCA1": 0.021,
+      "PCA2": -0.822,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 10,
+      "Monetary": 2046900.0
+    },
+    {
+      "PCA1": -1.575,
+      "PCA2": 0.6772,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 147,
+      "Frequency": 3,
+      "Monetary": 762400.0
+    },
+    {
+      "PCA1": -0.6732,
+      "PCA2": -0.9254,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 4,
+      "Monetary": 142900.0
+    },
+    {
+      "PCA1": 3.1494,
+      "PCA2": 1.0535,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 24,
+      "Monetary": 37002100.0
+    },
+    {
+      "PCA1": -0.3517,
+      "PCA2": -0.9926,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 6,
+      "Monetary": 1242900.0
+    },
+    {
+      "PCA1": -0.8478,
+      "PCA2": -0.3849,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 5,
+      "Monetary": 296000.0
+    },
+    {
+      "PCA1": -0.0887,
+      "PCA2": -0.7737,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 9,
+      "Monetary": 2253200.0
+    },
+    {
+      "PCA1": 0.1172,
+      "PCA2": -0.7942,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 11,
+      "Monetary": 2187000.0
+    },
+    {
+      "PCA1": -1.2351,
+      "PCA2": -0.4458,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 1,
+      "Monetary": 50100.0
+    },
+    {
+      "PCA1": -2.1143,
+      "PCA2": 1.4065,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 211,
+      "Frequency": 2,
+      "Monetary": 89700.0
+    },
+    {
+      "PCA1": -0.0794,
+      "PCA2": -0.8704,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 9,
+      "Monetary": 1714700.0
+    },
+    {
+      "PCA1": 0.8592,
+      "PCA2": -0.2713,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 17,
+      "Monetary": 7563500.0
+    },
+    {
+      "PCA1": 1.6659,
+      "PCA2": -0.1477,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 23,
+      "Monetary": 11051200.0
+    },
+    {
+      "PCA1": -1.9076,
+      "PCA2": 1.0161,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 179,
+      "Frequency": 2,
+      "Monetary": 85200.0
+    },
+    {
+      "PCA1": -0.1337,
+      "PCA2": -0.7749,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 9,
+      "Monetary": 1667500.0
+    },
+    {
+      "PCA1": 1.2096,
+      "PCA2": -0.2635,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 19,
+      "Monetary": 9544500.0
+    },
+    {
+      "PCA1": -0.3343,
+      "PCA2": -0.9787,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 6,
+      "Monetary": 1560500.0
+    },
+    {
+      "PCA1": -0.0494,
+      "PCA2": -0.7393,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 10,
+      "Monetary": 1706000.0
+    },
+    {
+      "PCA1": -0.2025,
+      "PCA2": -0.147,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 59,
+      "Frequency": 11,
+      "Monetary": 2488700.0
+    },
+    {
+      "PCA1": 1.4557,
+      "PCA2": -0.0991,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 20,
+      "Monetary": 12539900.0
+    },
+    {
+      "PCA1": 2.7803,
+      "PCA2": 1.5747,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 58,
+      "Frequency": 24,
+      "Monetary": 35810600.0
+    },
+    {
+      "PCA1": -1.3267,
+      "PCA2": 0.1118,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 3,
+      "Monetary": 99700.0
+    },
+    {
+      "PCA1": -0.2966,
+      "PCA2": -0.8762,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 7,
+      "Monetary": 1456700.0
+    },
+    {
+      "PCA1": 3.2885,
+      "PCA2": 1.0492,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 10,
+      "Frequency": 26,
+      "Monetary": 36187500.0
+    },
+    {
+      "PCA1": -3.1164,
+      "PCA2": 3.1026,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 352,
+      "Frequency": 1,
+      "Monetary": 56900.0
+    },
+    {
+      "PCA1": 0.7966,
+      "PCA2": -0.2896,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 16,
+      "Monetary": 7919700.0
+    },
+    {
+      "PCA1": -0.932,
+      "PCA2": -0.5623,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 3,
+      "Monetary": 577800.0
+    },
+    {
+      "PCA1": -0.1967,
+      "PCA2": -0.5996,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 9,
+      "Monetary": 2052000.0
+    },
+    {
+      "PCA1": -0.5251,
+      "PCA2": -0.3992,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 7,
+      "Monetary": 1771100.0
+    },
+    {
+      "PCA1": 0.0535,
+      "PCA2": -0.6889,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 11,
+      "Monetary": 2085500.0
+    },
+    {
+      "PCA1": 0.8067,
+      "PCA2": -0.5275,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 15,
+      "Monetary": 7716000.0
+    },
+    {
+      "PCA1": -1.2226,
+      "PCA2": -0.4705,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 59,
+      "Frequency": 1,
+      "Monetary": 43100.0
+    },
+    {
+      "PCA1": 4.0314,
+      "PCA2": 1.3616,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 31,
+      "Monetary": 41426900.0
+    },
+    {
+      "PCA1": 0.3061,
+      "PCA2": -0.5823,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 14,
+      "Monetary": 2197700.0
+    },
+    {
+      "PCA1": 0.7272,
+      "PCA2": -0.4001,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 15,
+      "Monetary": 7562400.0
+    },
+    {
+      "PCA1": -0.5736,
+      "PCA2": 1.1277,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 158,
+      "Frequency": 14,
+      "Monetary": 2547100.0
+    },
+    {
+      "PCA1": 5.8483,
+      "PCA2": 2.4452,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 37,
+      "Monetary": 64429800.0
+    },
+    {
+      "PCA1": -0.5914,
+      "PCA2": -0.1745,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 64,
+      "Frequency": 7,
+      "Monetary": 2451100.0
+    },
+    {
+      "PCA1": 4.0843,
+      "PCA2": 1.4699,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 9,
+      "Frequency": 30,
+      "Monetary": 44130900.0
+    },
+    {
+      "PCA1": 0.1125,
+      "PCA2": -0.0145,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 55,
+      "Frequency": 12,
+      "Monetary": 6151700.0
+    },
+    {
+      "PCA1": -1.4534,
+      "PCA2": 0.1639,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 109,
+      "Frequency": 2,
+      "Monetary": 113100.0
+    },
+    {
+      "PCA1": -2.2819,
+      "PCA2": 1.53,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 223,
+      "Frequency": 1,
+      "Monetary": 64300.0
+    },
+    {
+      "PCA1": 0.2547,
+      "PCA2": -0.6437,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 13,
+      "Monetary": 2405600.0
+    },
+    {
+      "PCA1": 0.4602,
+      "PCA2": -0.6189,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 13,
+      "Monetary": 5214800.0
+    },
+    {
+      "PCA1": -0.226,
+      "PCA2": -0.8515,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 8,
+      "Monetary": 1245300.0
+    },
+    {
+      "PCA1": 0.3617,
+      "PCA2": -0.4751,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 12,
+      "Monetary": 6214100.0
+    },
+    {
+      "PCA1": 0.4702,
+      "PCA2": -0.5416,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 13,
+      "Monetary": 5869100.0
+    },
+    {
+      "PCA1": 3.6205,
+      "PCA2": 1.219,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 13,
+      "Frequency": 29,
+      "Monetary": 37750300.0
+    },
+    {
+      "PCA1": -0.0502,
+      "PCA2": -0.8818,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 9,
+      "Monetary": 2012200.0
+    },
+    {
+      "PCA1": -1.4743,
+      "PCA2": 0.7432,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 149,
+      "Frequency": 4,
+      "Monetary": 1219700.0
+    },
+    {
+      "PCA1": 0.8757,
+      "PCA2": -0.0989,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 18,
+      "Monetary": 7663100.0
+    },
+    {
+      "PCA1": -1.5302,
+      "PCA2": 0.3108,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 121,
+      "Frequency": 2,
+      "Monetary": 128000.0
+    },
+    {
+      "PCA1": -1.6753,
+      "PCA2": 1.0686,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 177,
+      "Frequency": 4,
+      "Monetary": 853600.0
+    },
+    {
+      "PCA1": -0.7675,
+      "PCA2": -0.9342,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 3,
+      "Monetary": 157400.0
+    },
+    {
+      "PCA1": 0.9011,
+      "PCA2": -0.4319,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 16,
+      "Monetary": 8292900.0
+    },
+    {
+      "PCA1": 0.9898,
+      "PCA2": -0.2682,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 18,
+      "Monetary": 7975500.0
+    },
+    {
+      "PCA1": 1.4238,
+      "PCA2": -0.052,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 21,
+      "Monetary": 11164000.0
+    },
+    {
+      "PCA1": -0.3757,
+      "PCA2": -0.3259,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 51,
+      "Frequency": 9,
+      "Monetary": 1617100.0
+    },
+    {
+      "PCA1": -1.0387,
+      "PCA2": 0.2639,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 107,
+      "Frequency": 6,
+      "Monetary": 976500.0
+    },
+    {
+      "PCA1": -0.6295,
+      "PCA2": -0.5375,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 42,
+      "Frequency": 6,
+      "Monetary": 774000.0
+    },
+    {
+      "PCA1": 0.0427,
+      "PCA2": -0.6801,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 11,
+      "Monetary": 2006500.0
+    },
+    {
+      "PCA1": -0.8908,
+      "PCA2": 0.2635,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 7,
+      "Monetary": 1588400.0
+    },
+    {
+      "PCA1": 0.292,
+      "PCA2": -0.4439,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 12,
+      "Monetary": 5532200.0
+    },
+    {
+      "PCA1": -2.3784,
+      "PCA2": 2.6277,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 302,
+      "Frequency": 5,
+      "Monetary": 1157900.0
+    },
+    {
+      "PCA1": -0.4151,
+      "PCA2": 0.3568,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 10,
+      "Monetary": 4475100.0
+    },
+    {
+      "PCA1": -0.5587,
+      "PCA2": -0.1626,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 8,
+      "Monetary": 1664900.0
+    },
+    {
+      "PCA1": -0.3913,
+      "PCA2": -0.2169,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 9,
+      "Monetary": 2159800.0
+    },
+    {
+      "PCA1": -1.2131,
+      "PCA2": 0.382,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 119,
+      "Frequency": 5,
+      "Monetary": 827700.0
+    },
+    {
+      "PCA1": 1.2742,
+      "PCA2": -0.1916,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 20,
+      "Monetary": 9578700.0
+    },
+    {
+      "PCA1": 0.5337,
+      "PCA2": -0.6471,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 13,
+      "Monetary": 5965400.0
+    },
+    {
+      "PCA1": -0.4378,
+      "PCA2": -0.0317,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 68,
+      "Frequency": 8,
+      "Monetary": 4109800.0
+    },
+    {
+      "PCA1": -0.56,
+      "PCA2": -0.6208,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 6,
+      "Monetary": 1099300.0
+    },
+    {
+      "PCA1": -0.3211,
+      "PCA2": -0.8611,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 7,
+      "Monetary": 1244800.0
+    },
+    {
+      "PCA1": -1.3894,
+      "PCA2": 0.4293,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 127,
+      "Frequency": 4,
+      "Monetary": 171600.0
+    },
+    {
+      "PCA1": 0.0777,
+      "PCA2": -0.7736,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 11,
+      "Monetary": 1819900.0
+    },
+    {
+      "PCA1": -0.1366,
+      "PCA2": -0.2365,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 10,
+      "Monetary": 4011300.0
+    },
+    {
+      "PCA1": -0.3668,
+      "PCA2": -0.9699,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 6,
+      "Monetary": 1202700.0
+    },
+    {
+      "PCA1": 0.3903,
+      "PCA2": -0.6431,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 12,
+      "Monetary": 5437300.0
+    },
+    {
+      "PCA1": -0.8811,
+      "PCA2": -0.9238,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 2,
+      "Monetary": 54500.0
+    },
+    {
+      "PCA1": -0.6016,
+      "PCA2": -0.0754,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 73,
+      "Frequency": 8,
+      "Monetary": 1708000.0
+    },
+    {
+      "PCA1": -0.7439,
+      "PCA2": -0.7909,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 4,
+      "Monetary": 150500.0
+    },
+    {
+      "PCA1": 0.5851,
+      "PCA2": -0.2011,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 15,
+      "Monetary": 7092700.0
+    },
+    {
+      "PCA1": -0.2628,
+      "PCA2": -0.4614,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 38,
+      "Frequency": 9,
+      "Monetary": 2144800.0
+    },
+    {
+      "PCA1": -1.6368,
+      "PCA2": 0.5034,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 137,
+      "Frequency": 2,
+      "Monetary": 70200.0
+    },
+    {
+      "PCA1": 0.2992,
+      "PCA2": -0.1229,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 13,
+      "Monetary": 6525100.0
+    },
+    {
+      "PCA1": -0.0923,
+      "PCA2": -0.652,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 10,
+      "Monetary": 1750300.0
+    },
+    {
+      "PCA1": 1.365,
+      "PCA2": -0.2927,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 20,
+      "Monetary": 10056200.0
+    },
+    {
+      "PCA1": 1.4931,
+      "PCA2": 0.2237,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 14,
+      "Monetary": 22935200.0
+    },
+    {
+      "PCA1": 0.747,
+      "PCA2": -0.2803,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 15,
+      "Monetary": 8632100.0
+    },
+    {
+      "PCA1": -0.1527,
+      "PCA2": -0.9492,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 8,
+      "Monetary": 1521100.0
+    },
+    {
+      "PCA1": 0.696,
+      "PCA2": -0.5462,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 15,
+      "Monetary": 6166100.0
+    },
+    {
+      "PCA1": 0.0431,
+      "PCA2": -0.6452,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 11,
+      "Monetary": 2249700.0
+    },
+    {
+      "PCA1": -0.6784,
+      "PCA2": -0.0704,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 74,
+      "Frequency": 7,
+      "Monetary": 2042300.0
+    },
+    {
+      "PCA1": 4.2769,
+      "PCA2": 1.4388,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 32,
+      "Monetary": 43820400.0
+    },
+    {
+      "PCA1": 0.4218,
+      "PCA2": -0.67,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 12,
+      "Monetary": 5659600.0
+    },
+    {
+      "PCA1": 1.1175,
+      "PCA2": 0.2385,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 20,
+      "Monetary": 10495300.0
+    },
+    {
+      "PCA1": -1.8111,
+      "PCA2": 1.0268,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 178,
+      "Frequency": 3,
+      "Monetary": 110800.0
+    },
+    {
+      "PCA1": -2.397,
+      "PCA2": 1.9444,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 255,
+      "Frequency": 2,
+      "Monetary": 121500.0
+    },
+    {
+      "PCA1": -0.8503,
+      "PCA2": 0.3509,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 109,
+      "Frequency": 8,
+      "Monetary": 1417700.0
+    },
+    {
+      "PCA1": 0.9194,
+      "PCA2": 0.0746,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 40,
+      "Frequency": 18,
+      "Monetary": 9407000.0
+    },
+    {
+      "PCA1": 1.5583,
+      "PCA2": -0.1877,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 21,
+      "Monetary": 11967300.0
+    },
+    {
+      "PCA1": 0.4994,
+      "PCA2": -0.4143,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 13,
+      "Monetary": 7112000.0
+    },
+    {
+      "PCA1": 0.6058,
+      "PCA2": -0.6842,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 16,
+      "Monetary": 2781900.0
+    },
+    {
+      "PCA1": -0.0814,
+      "PCA2": -0.8546,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 9,
+      "Monetary": 1795900.0
+    },
+    {
+      "PCA1": -3.0976,
+      "PCA2": 3.0655,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 349,
+      "Frequency": 1,
+      "Monetary": 46400.0
+    },
+    {
+      "PCA1": 0.1318,
+      "PCA2": 0.2499,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 14,
+      "Monetary": 5628500.0
+    },
+    {
+      "PCA1": -2.7227,
+      "PCA2": 2.3582,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 291,
+      "Frequency": 1,
+      "Monetary": 43300.0
+    },
+    {
+      "PCA1": -0.8159,
+      "PCA2": 0.1496,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 93,
+      "Frequency": 7,
+      "Monetary": 1774600.0
+    },
+    {
+      "PCA1": 0.9387,
+      "PCA2": -0.1907,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 17,
+      "Monetary": 9132500.0
+    },
+    {
+      "PCA1": -1.3635,
+      "PCA2": -0.0073,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 2,
+      "Monetary": 101800.0
+    },
+    {
+      "PCA1": -1.3603,
+      "PCA2": 0.1718,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 108,
+      "Frequency": 3,
+      "Monetary": 76500.0
+    },
+    {
+      "PCA1": -1.1326,
+      "PCA2": -0.0079,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 90,
+      "Frequency": 4,
+      "Monetary": 492500.0
+    },
+    {
+      "PCA1": 3.2653,
+      "PCA2": 1.0732,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 23,
+      "Monetary": 39910300.0
+    },
+    {
+      "PCA1": -0.7367,
+      "PCA2": -0.276,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 62,
+      "Frequency": 6,
+      "Monetary": 1179300.0
+    },
+    {
+      "PCA1": 1.2442,
+      "PCA2": -0.2848,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 20,
+      "Monetary": 8558400.0
+    },
+    {
+      "PCA1": -1.1754,
+      "PCA2": 0.062,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 96,
+      "Frequency": 4,
+      "Monetary": 417800.0
+    },
+    {
+      "PCA1": 3.0727,
+      "PCA2": 1.0271,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 13,
+      "Frequency": 24,
+      "Monetary": 35836900.0
+    },
+    {
+      "PCA1": 0.6815,
+      "PCA2": 0.0349,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 16,
+      "Monetary": 8652100.0
+    },
+    {
+      "PCA1": -0.4182,
+      "PCA2": -0.1896,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 8,
+      "Monetary": 3285900.0
+    },
+    {
+      "PCA1": -0.6623,
+      "PCA2": -0.6708,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 5,
+      "Monetary": 730600.0
+    },
+    {
+      "PCA1": -0.2816,
+      "PCA2": -0.8469,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 7,
+      "Monetary": 1849000.0
+    },
+    {
+      "PCA1": -0.205,
+      "PCA2": -0.8348,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 8,
+      "Monetary": 1629600.0
+    },
+    {
+      "PCA1": -0.8316,
+      "PCA2": -0.8119,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 3,
+      "Monetary": 167500.0
+    },
+    {
+      "PCA1": 0.5257,
+      "PCA2": -0.4249,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 14,
+      "Monetary": 6090800.0
+    },
+    {
+      "PCA1": -0.0729,
+      "PCA2": -0.8825,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 9,
+      "Monetary": 1715100.0
+    },
+    {
+      "PCA1": -0.3769,
+      "PCA2": -0.978,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 6,
+      "Monetary": 1017600.0
+    },
+    {
+      "PCA1": -1.824,
+      "PCA2": 1.5603,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 215,
+      "Frequency": 5,
+      "Monetary": 1007300.0
+    },
+    {
+      "PCA1": 0.6508,
+      "PCA2": -0.4294,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 14,
+      "Monetary": 7666600.0
+    },
+    {
+      "PCA1": -1.3321,
+      "PCA2": 1.5138,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 201,
+      "Frequency": 9,
+      "Monetary": 1865000.0
+    },
+    {
+      "PCA1": -1.1353,
+      "PCA2": -0.1866,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 77,
+      "Frequency": 3,
+      "Monetary": 525200.0
+    },
+    {
+      "PCA1": -0.1059,
+      "PCA2": 0.242,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 77,
+      "Frequency": 11,
+      "Monetary": 6379300.0
+    },
+    {
+      "PCA1": 0.8723,
+      "PCA2": -0.4721,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 16,
+      "Monetary": 7649100.0
+    },
+    {
+      "PCA1": -0.3928,
+      "PCA2": -0.71,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 7,
+      "Monetary": 1353800.0
+    },
+    {
+      "PCA1": -0.529,
+      "PCA2": -0.9462,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 5,
+      "Monetary": 566800.0
+    },
+    {
+      "PCA1": -0.6322,
+      "PCA2": -0.0131,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 78,
+      "Frequency": 8,
+      "Monetary": 1740000.0
+    },
+    {
+      "PCA1": -0.3553,
+      "PCA2": -0.2955,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 49,
+      "Frequency": 8,
+      "Monetary": 3373300.0
+    },
+    {
+      "PCA1": -1.7545,
+      "PCA2": 0.5279,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 141,
+      "Frequency": 1,
+      "Monetary": 11800.0
+    },
+    {
+      "PCA1": -2.3981,
+      "PCA2": 1.9435,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 255,
+      "Frequency": 2,
+      "Monetary": 101700.0
+    },
+    {
+      "PCA1": -0.6232,
+      "PCA2": -0.4978,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 44,
+      "Frequency": 6,
+      "Monetary": 1125200.0
+    },
+    {
+      "PCA1": -0.7503,
+      "PCA2": 0.1877,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 8,
+      "Monetary": 1591000.0
+    },
+    {
+      "PCA1": 1.3342,
+      "PCA2": 0.0013,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 22,
+      "Monetary": 9091500.0
+    },
+    {
+      "PCA1": 1.7318,
+      "PCA2": -0.1268,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 24,
+      "Monetary": 10752800.0
+    },
+    {
+      "PCA1": -2.7041,
+      "PCA2": 2.5149,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 302,
+      "Frequency": 2,
+      "Monetary": 63600.0
+    },
+    {
+      "PCA1": 0.6499,
+      "PCA2": -0.233,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 16,
+      "Monetary": 6422300.0
+    },
+    {
+      "PCA1": 1.0336,
+      "PCA2": 0.2238,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 49,
+      "Frequency": 20,
+      "Monetary": 9316800.0
+    },
+    {
+      "PCA1": 0.3003,
+      "PCA2": -0.4546,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 12,
+      "Monetary": 5565400.0
+    },
+    {
+      "PCA1": -0.9806,
+      "PCA2": -0.0571,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 83,
+      "Frequency": 5,
+      "Monetary": 823100.0
+    },
+    {
+      "PCA1": 1.0866,
+      "PCA2": -0.3126,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 18,
+      "Monetary": 8916300.0
+    },
+    {
+      "PCA1": 3.3764,
+      "PCA2": 1.1474,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 24,
+      "Monetary": 40557000.0
+    },
+    {
+      "PCA1": -0.4716,
+      "PCA2": -0.8106,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 6,
+      "Monetary": 942600.0
+    },
+    {
+      "PCA1": -1.3269,
+      "PCA2": 1.5525,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 203,
+      "Frequency": 9,
+      "Monetary": 2195100.0
+    },
+    {
+      "PCA1": -0.1898,
+      "PCA2": -0.1023,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 11,
+      "Monetary": 2956200.0
+    },
+    {
+      "PCA1": 0.1646,
+      "PCA2": -0.5484,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 11,
+      "Monetary": 4469600.0
+    },
+    {
+      "PCA1": -0.4465,
+      "PCA2": -0.5967,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 7,
+      "Monetary": 1435400.0
+    },
+    {
+      "PCA1": -0.0449,
+      "PCA2": 0.1203,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 70,
+      "Frequency": 12,
+      "Monetary": 5048200.0
+    },
+    {
+      "PCA1": -3.025,
+      "PCA2": 2.9326,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 338,
+      "Frequency": 1,
+      "Monetary": 73300.0
+    },
+    {
+      "PCA1": -1.2747,
+      "PCA2": -0.1794,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 81,
+      "Frequency": 2,
+      "Monetary": 69800.0
+    },
+    {
+      "PCA1": 1.0131,
+      "PCA2": -0.371,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 18,
+      "Monetary": 7574800.0
+    },
+    {
+      "PCA1": -1.3439,
+      "PCA2": 1.0992,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 172,
+      "Frequency": 7,
+      "Monetary": 1461700.0
+    },
+    {
+      "PCA1": -0.2125,
+      "PCA2": -0.0368,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 10,
+      "Monetary": 4396700.0
+    },
+    {
+      "PCA1": -0.6332,
+      "PCA2": 0.2321,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 9,
+      "Monetary": 2111100.0
+    },
+    {
+      "PCA1": 4.0485,
+      "PCA2": 1.5486,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 18,
+      "Frequency": 31,
+      "Monetary": 42921600.0
+    },
+    {
+      "PCA1": 0.2935,
+      "PCA2": -0.5577,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 14,
+      "Monetary": 2203600.0
+    },
+    {
+      "PCA1": 0.9068,
+      "PCA2": -0.1988,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 17,
+      "Monetary": 8667800.0
+    },
+    {
+      "PCA1": 0.7521,
+      "PCA2": -0.5221,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 2,
+      "Frequency": 14,
+      "Monetary": 8336800.0
+    },
+    {
+      "PCA1": -0.0491,
+      "PCA2": 0.1311,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 68,
+      "Frequency": 11,
+      "Monetary": 6354000.0
+    },
+    {
+      "PCA1": 0.5816,
+      "PCA2": -0.1692,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 15,
+      "Monetary": 7264400.0
+    },
+    {
+      "PCA1": 2.8761,
+      "PCA2": 1.0409,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 20,
+      "Frequency": 23,
+      "Monetary": 34692400.0
+    },
+    {
+      "PCA1": 0.817,
+      "PCA2": -0.502,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 15,
+      "Monetary": 8022100.0
+    },
+    {
+      "PCA1": 0.1601,
+      "PCA2": -0.6875,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 12,
+      "Monetary": 2178100.0
+    },
+    {
+      "PCA1": -0.6351,
+      "PCA2": -0.7879,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 5,
+      "Monetary": 282200.0
+    },
+    {
+      "PCA1": 0.2207,
+      "PCA2": -0.3272,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 12,
+      "Monetary": 5411600.0
+    },
+    {
+      "PCA1": 1.1626,
+      "PCA2": 0.0317,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 20,
+      "Monetary": 9666000.0
+    },
+    {
+      "PCA1": 0.3778,
+      "PCA2": -0.6639,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 14,
+      "Monetary": 2563600.0
+    },
+    {
+      "PCA1": -0.3187,
+      "PCA2": -0.8418,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 7,
+      "Monetary": 1407800.0
+    },
+    {
+      "PCA1": -0.4309,
+      "PCA2": -0.4424,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 44,
+      "Frequency": 8,
+      "Monetary": 1401200.0
+    },
+    {
+      "PCA1": 1.2231,
+      "PCA2": -0.27,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 19,
+      "Monetary": 9674200.0
+    },
+    {
+      "PCA1": -1.6407,
+      "PCA2": 0.7116,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 152,
+      "Frequency": 3,
+      "Monetary": 152300.0
+    },
+    {
+      "PCA1": -0.9104,
+      "PCA2": -0.6665,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 39,
+      "Frequency": 3,
+      "Monetary": 146000.0
+    },
+    {
+      "PCA1": 0.5232,
+      "PCA2": -0.4821,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 13,
+      "Monetary": 6955500.0
+    },
+    {
+      "PCA1": -2.2763,
+      "PCA2": 1.5171,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 222,
+      "Frequency": 1,
+      "Monetary": 47500.0
+    },
+    {
+      "PCA1": -0.5011,
+      "PCA2": -0.2728,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 57,
+      "Frequency": 8,
+      "Monetary": 1655000.0
+    },
+    {
+      "PCA1": 0.808,
+      "PCA2": -0.3357,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 15,
+      "Monetary": 9038500.0
+    },
+    {
+      "PCA1": 0.7781,
+      "PCA2": -0.3769,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 15,
+      "Monetary": 8373600.0
+    },
+    {
+      "PCA1": 0.444,
+      "PCA2": 0.2415,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 15,
+      "Monetary": 8294700.0
+    },
+    {
+      "PCA1": -0.1491,
+      "PCA2": -0.6626,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 10,
+      "Monetary": 949000.0
+    },
+    {
+      "PCA1": -0.5593,
+      "PCA2": -0.8315,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 5,
+      "Monetary": 959400.0
+    },
+    {
+      "PCA1": 0.1316,
+      "PCA2": -0.6299,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 10,
+      "Monetary": 4776200.0
+    },
+    {
+      "PCA1": -0.095,
+      "PCA2": -0.7646,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 8,
+      "Monetary": 3520900.0
+    },
+    {
+      "PCA1": -0.0864,
+      "PCA2": -0.3841,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 40,
+      "Frequency": 11,
+      "Monetary": 2365000.0
+    },
+    {
+      "PCA1": 0.1794,
+      "PCA2": -0.2766,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 34,
+      "Frequency": 11,
+      "Monetary": 6510800.0
+    },
+    {
+      "PCA1": -1.9902,
+      "PCA2": 0.9819,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 178,
+      "Frequency": 1,
+      "Monetary": 76700.0
+    },
+    {
+      "PCA1": -0.7442,
+      "PCA2": -0.7738,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 4,
+      "Monetary": 263500.0
+    },
+    {
+      "PCA1": -0.2051,
+      "PCA2": -0.1665,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 11,
+      "Monetary": 2322200.0
+    },
+    {
+      "PCA1": -0.2118,
+      "PCA2": -0.8922,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 8,
+      "Monetary": 1150700.0
+    },
+    {
+      "PCA1": 0.7635,
+      "PCA2": -0.0527,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 37,
+      "Frequency": 17,
+      "Monetary": 7823700.0
+    },
+    {
+      "PCA1": -0.5033,
+      "PCA2": 0.3592,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 102,
+      "Frequency": 11,
+      "Monetary": 2073300.0
+    },
+    {
+      "PCA1": -2.7856,
+      "PCA2": 2.4816,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 301,
+      "Frequency": 1,
+      "Monetary": 75800.0
+    },
+    {
+      "PCA1": -0.8984,
+      "PCA2": -0.6917,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 37,
+      "Frequency": 3,
+      "Monetary": 128200.0
+    },
+    {
+      "PCA1": -1.4933,
+      "PCA2": 0.4301,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 129,
+      "Frequency": 3,
+      "Monetary": 127600.0
+    },
+    {
+      "PCA1": -0.9128,
+      "PCA2": -0.2806,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 67,
+      "Frequency": 5,
+      "Monetary": 170900.0
+    },
+    {
+      "PCA1": 0.8536,
+      "PCA2": -0.4728,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 15,
+      "Monetary": 8690300.0
+    },
+    {
+      "PCA1": -0.4461,
+      "PCA2": -0.4024,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 47,
+      "Frequency": 8,
+      "Monetary": 1478500.0
+    },
+    {
+      "PCA1": 1.7072,
+      "PCA2": 0.2759,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 15,
+      "Monetary": 24755000.0
+    },
+    {
+      "PCA1": -0.0855,
+      "PCA2": -0.8405,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 9,
+      "Monetary": 1839300.0
+    },
+    {
+      "PCA1": 1.0464,
+      "PCA2": -0.1191,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 18,
+      "Monetary": 9717700.0
+    },
+    {
+      "PCA1": 0.2671,
+      "PCA2": -0.4984,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 12,
+      "Monetary": 4840700.0
+    },
+    {
+      "PCA1": -1.1139,
+      "PCA2": -0.6788,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 42,
+      "Frequency": 1,
+      "Monetary": 19400.0
+    },
+    {
+      "PCA1": -0.9831,
+      "PCA2": -0.5337,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 3,
+      "Monetary": 115900.0
+    },
+    {
+      "PCA1": -0.1939,
+      "PCA2": -0.632,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 9,
+      "Monetary": 1867400.0
+    },
+    {
+      "PCA1": 1.4626,
+      "PCA2": -0.2465,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 21,
+      "Monetary": 10337400.0
+    },
+    {
+      "PCA1": -0.5288,
+      "PCA2": -0.8041,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 6,
+      "Monetary": 252300.0
+    },
+    {
+      "PCA1": -0.5927,
+      "PCA2": -0.5948,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 37,
+      "Frequency": 6,
+      "Monetary": 856900.0
+    },
+    {
+      "PCA1": -1.2267,
+      "PCA2": -0.4564,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 1,
+      "Monetary": 86100.0
+    },
+    {
+      "PCA1": -1.1109,
+      "PCA2": 0.1166,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 99,
+      "Frequency": 5,
+      "Monetary": 333100.0
+    },
+    {
+      "PCA1": -0.0834,
+      "PCA2": -0.7143,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 10,
+      "Monetary": 1439600.0
+    },
+    {
+      "PCA1": 3.8706,
+      "PCA2": 1.3628,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 28,
+      "Monetary": 43227400.0
+    },
+    {
+      "PCA1": 0.9382,
+      "PCA2": 0.3355,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 57,
+      "Frequency": 19,
+      "Monetary": 10139300.0
+    },
+    {
+      "PCA1": -0.6172,
+      "PCA2": -0.7216,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 5,
+      "Monetary": 963500.0
+    },
+    {
+      "PCA1": 0.4933,
+      "PCA2": -0.5059,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 13,
+      "Monetary": 6409600.0
+    },
+    {
+      "PCA1": -0.129,
+      "PCA2": -0.5946,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 27,
+      "Frequency": 10,
+      "Monetary": 1669400.0
+    },
+    {
+      "PCA1": 3.0472,
+      "PCA2": 0.865,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 2,
+      "Frequency": 23,
+      "Monetary": 35690800.0
+    },
+    {
+      "PCA1": -0.5489,
+      "PCA2": -0.8232,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 5,
+      "Monetary": 1149600.0
+    },
+    {
+      "PCA1": 3.0418,
+      "PCA2": 0.9993,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 10,
+      "Frequency": 23,
+      "Monetary": 36536200.0
+    },
+    {
+      "PCA1": -0.3604,
+      "PCA2": -0.7016,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 7,
+      "Monetary": 1826200.0
+    },
+    {
+      "PCA1": 0.2465,
+      "PCA2": -0.3619,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 11,
+      "Monetary": 6792800.0
+    },
+    {
+      "PCA1": -0.9159,
+      "PCA2": -0.4596,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 4,
+      "Monetary": 198100.0
+    },
+    {
+      "PCA1": 0.0571,
+      "PCA2": -0.79,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 11,
+      "Monetary": 1443100.0
+    },
+    {
+      "PCA1": 1.4863,
+      "PCA2": -0.2103,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 21,
+      "Monetary": 10889500.0
+    },
+    {
+      "PCA1": -1.2327,
+      "PCA2": 0.1378,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 4,
+      "Monetary": 198100.0
+    },
+    {
+      "PCA1": -1.1789,
+      "PCA2": 0.0419,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 95,
+      "Frequency": 4,
+      "Monetary": 236300.0
+    },
+    {
+      "PCA1": -0.0849,
+      "PCA2": -0.9268,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 9,
+      "Monetary": 1259700.0
+    },
+    {
+      "PCA1": -2.5545,
+      "PCA2": 2.0412,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 265,
+      "Frequency": 1,
+      "Monetary": 44100.0
+    },
+    {
+      "PCA1": -0.2367,
+      "PCA2": -0.5967,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 9,
+      "Monetary": 1558600.0
+    },
+    {
+      "PCA1": 0.7253,
+      "PCA2": -0.2944,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 16,
+      "Monetary": 6971800.0
+    },
+    {
+      "PCA1": -0.545,
+      "PCA2": 0.3054,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 98,
+      "Frequency": 10,
+      "Monetary": 2456700.0
+    },
+    {
+      "PCA1": 0.7359,
+      "PCA2": -0.2024,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 15,
+      "Monetary": 9020400.0
+    },
+    {
+      "PCA1": 0.3175,
+      "PCA2": -0.4756,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 12,
+      "Monetary": 5643500.0
+    },
+    {
+      "PCA1": 0.7833,
+      "PCA2": -0.5115,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 15,
+      "Monetary": 7523300.0
+    },
+    {
+      "PCA1": 0.1269,
+      "PCA2": -0.8559,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 11,
+      "Monetary": 1890100.0
+    },
+    {
+      "PCA1": 0.3753,
+      "PCA2": 0.0244,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 48,
+      "Frequency": 13,
+      "Monetary": 8506300.0
+    },
+    {
+      "PCA1": -1.1099,
+      "PCA2": -0.4817,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 56,
+      "Frequency": 2,
+      "Monetary": 127300.0
+    },
+    {
+      "PCA1": -0.8158,
+      "PCA2": -0.5707,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 43,
+      "Frequency": 4,
+      "Monetary": 726800.0
+    },
+    {
+      "PCA1": -0.3465,
+      "PCA2": -0.2853,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 9,
+      "Monetary": 2268700.0
+    },
+    {
+      "PCA1": 0.1042,
+      "PCA2": -0.524,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 12,
+      "Monetary": 2573900.0
+    },
+    {
+      "PCA1": 1.8071,
+      "PCA2": -0.1015,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 24,
+      "Monetary": 11893100.0
+    },
+    {
+      "PCA1": -0.5,
+      "PCA2": -0.324,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 8,
+      "Monetary": 1320100.0
+    },
+    {
+      "PCA1": -0.3956,
+      "PCA2": -0.8715,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 12,
+      "Frequency": 6,
+      "Monetary": 1503700.0
+    },
+    {
+      "PCA1": -1.1438,
+      "PCA2": 0.2811,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 110,
+      "Frequency": 5,
+      "Monetary": 1029900.0
+    },
+    {
+      "PCA1": 1.4393,
+      "PCA2": 0.0818,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 21,
+      "Monetary": 12275400.0
+    },
+    {
+      "PCA1": 0.6386,
+      "PCA2": -0.0718,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 36,
+      "Frequency": 15,
+      "Monetary": 8660300.0
+    },
+    {
+      "PCA1": -0.5443,
+      "PCA2": -0.0266,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 76,
+      "Frequency": 9,
+      "Monetary": 1491100.0
+    },
+    {
+      "PCA1": -2.3001,
+      "PCA2": 1.5675,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 226,
+      "Frequency": 1,
+      "Monetary": 84600.0
+    },
+    {
+      "PCA1": -1.0229,
+      "PCA2": -0.6032,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 45,
+      "Frequency": 2,
+      "Monetary": 418300.0
+    },
+    {
+      "PCA1": 1.2371,
+      "PCA2": 0.0358,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 19,
+      "Monetary": 11936100.0
+    },
+    {
+      "PCA1": 3.8523,
+      "PCA2": 1.2647,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 5,
+      "Frequency": 29,
+      "Monetary": 41038900.0
+    },
+    {
+      "PCA1": -0.6804,
+      "PCA2": -0.6158,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 37,
+      "Frequency": 5,
+      "Monetary": 873400.0
+    },
+    {
+      "PCA1": 0.7724,
+      "PCA2": -0.5201,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 15,
+      "Monetary": 7325700.0
+    },
+    {
+      "PCA1": -0.625,
+      "PCA2": 0.3285,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 103,
+      "Frequency": 10,
+      "Monetary": 1586700.0
+    },
+    {
+      "PCA1": -0.0481,
+      "PCA2": -0.7793,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 8,
+      "Monetary": 4022500.0
+    },
+    {
+      "PCA1": -2.8444,
+      "PCA2": 2.5908,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 310,
+      "Frequency": 1,
+      "Monetary": 64500.0
+    },
+    {
+      "PCA1": -0.7461,
+      "PCA2": -0.2662,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 6,
+      "Monetary": 1124200.0
+    },
+    {
+      "PCA1": -1.05,
+      "PCA2": -0.0808,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 82,
+      "Frequency": 4,
+      "Monetary": 1056400.0
+    },
+    {
+      "PCA1": 3.0613,
+      "PCA2": 0.8132,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 25,
+      "Monetary": 32946500.0
+    },
+    {
+      "PCA1": -0.6385,
+      "PCA2": -0.2467,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 62,
+      "Frequency": 7,
+      "Monetary": 1353700.0
+    },
+    {
+      "PCA1": 0.1636,
+      "PCA2": -0.8093,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 11,
+      "Monetary": 2679700.0
+    },
+    {
+      "PCA1": -0.6878,
+      "PCA2": 0.4692,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 114,
+      "Frequency": 10,
+      "Monetary": 1738800.0
+    },
+    {
+      "PCA1": -1.3732,
+      "PCA2": 0.4769,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 129,
+      "Frequency": 4,
+      "Monetary": 704000.0
+    },
+    {
+      "PCA1": -0.9244,
+      "PCA2": -1.0308,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 1,
+      "Monetary": 55800.0
+    },
+    {
+      "PCA1": -0.1772,
+      "PCA2": -0.7228,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 9,
+      "Monetary": 1463500.0
+    },
+    {
+      "PCA1": -0.9939,
+      "PCA2": -0.3136,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 66,
+      "Frequency": 4,
+      "Monetary": 190700.0
+    },
+    {
+      "PCA1": -0.731,
+      "PCA2": -0.798,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 26,
+      "Frequency": 4,
+      "Monetary": 268000.0
+    },
+    {
+      "PCA1": 0.6655,
+      "PCA2": -0.383,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 14,
+      "Monetary": 8172200.0
+    },
+    {
+      "PCA1": -2.4516,
+      "PCA2": 1.8458,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 249,
+      "Frequency": 1,
+      "Monetary": 35200.0
+    },
+    {
+      "PCA1": -0.1089,
+      "PCA2": -0.3847,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 11,
+      "Monetary": 2072000.0
+    },
+    {
+      "PCA1": -0.0824,
+      "PCA2": -0.5607,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 24,
+      "Frequency": 9,
+      "Monetary": 3785400.0
+    },
+    {
+      "PCA1": 0.218,
+      "PCA2": -0.5406,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 11,
+      "Monetary": 5209400.0
+    },
+    {
+      "PCA1": -0.8375,
+      "PCA2": -0.9584,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 2,
+      "Monetary": 379900.0
+    },
+    {
+      "PCA1": -1.1377,
+      "PCA2": 0.3033,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 111,
+      "Frequency": 5,
+      "Monetary": 1260600.0
+    },
+    {
+      "PCA1": -1.6021,
+      "PCA2": 1.1821,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 183,
+      "Frequency": 5,
+      "Monetary": 1281900.0
+    },
+    {
+      "PCA1": 3.4441,
+      "PCA2": 1.2392,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 25,
+      "Monetary": 40765800.0
+    },
+    {
+      "PCA1": 0.2336,
+      "PCA2": -0.6953,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 13,
+      "Monetary": 1783000.0
+    },
+    {
+      "PCA1": -0.87,
+      "PCA2": 0.6504,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 130,
+      "Frequency": 9,
+      "Monetary": 1919000.0
+    },
+    {
+      "PCA1": 0.488,
+      "PCA2": -0.2468,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 14,
+      "Monetary": 6819500.0
+    },
+    {
+      "PCA1": -1.5308,
+      "PCA2": 0.5043,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 135,
+      "Frequency": 3,
+      "Monetary": 152000.0
+    },
+    {
+      "PCA1": -1.7921,
+      "PCA2": 0.796,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 161,
+      "Frequency": 2,
+      "Monetary": 69500.0
+    },
+    {
+      "PCA1": -1.2867,
+      "PCA2": -0.1542,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 83,
+      "Frequency": 2,
+      "Monetary": 87700.0
+    },
+    {
+      "PCA1": -0.1327,
+      "PCA2": -0.7394,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 16,
+      "Frequency": 9,
+      "Monetary": 1921400.0
+    },
+    {
+      "PCA1": -0.6904,
+      "PCA2": 0.114,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 8,
+      "Monetary": 1857300.0
+    },
+    {
+      "PCA1": -1.02,
+      "PCA2": 0.0849,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 93,
+      "Frequency": 5,
+      "Monetary": 1284500.0
+    },
+    {
+      "PCA1": -0.8448,
+      "PCA2": -0.7877,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 29,
+      "Frequency": 3,
+      "Monetary": 162000.0
+    },
+    {
+      "PCA1": 0.807,
+      "PCA2": -0.2293,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 22,
+      "Frequency": 16,
+      "Monetary": 8464800.0
+    },
+    {
+      "PCA1": 0.1434,
+      "PCA2": -0.3225,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 33,
+      "Frequency": 11,
+      "Monetary": 5736400.0
+    },
+    {
+      "PCA1": 0.5908,
+      "PCA2": -0.5291,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 9,
+      "Frequency": 14,
+      "Monetary": 6217300.0
+    },
+    {
+      "PCA1": 0.7003,
+      "PCA2": -0.4767,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 14,
+      "Monetary": 7980600.0
+    },
+    {
+      "PCA1": 0.1291,
+      "PCA2": -0.7848,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 11,
+      "Monetary": 2403000.0
+    },
+    {
+      "PCA1": 2.2457,
+      "PCA2": 0.8385,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 26,
+      "Frequency": 19,
+      "Monetary": 30360000.0
+    },
+    {
+      "PCA1": -0.7886,
+      "PCA2": -0.899,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 3,
+      "Monetary": 125500.0
+    },
+    {
+      "PCA1": -2.056,
+      "PCA2": 1.1029,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 188,
+      "Frequency": 1,
+      "Monetary": 55100.0
+    },
+    {
+      "PCA1": 1.9459,
+      "PCA2": -0.1234,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 4,
+      "Frequency": 26,
+      "Monetary": 10954900.0
+    },
+    {
+      "PCA1": -1.6649,
+      "PCA2": 0.3739,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 128,
+      "Frequency": 1,
+      "Monetary": 113800.0
+    },
+    {
+      "PCA1": 1.7642,
+      "PCA2": -0.0521,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 23,
+      "Monetary": 12963800.0
+    },
+    {
+      "PCA1": -1.0398,
+      "PCA2": 0.2977,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 109,
+      "Frequency": 6,
+      "Monetary": 1193700.0
+    },
+    {
+      "PCA1": -2.9697,
+      "PCA2": 2.8205,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 329,
+      "Frequency": 1,
+      "Monetary": 20000.0
+    },
+    {
+      "PCA1": -0.0295,
+      "PCA2": -0.7407,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 10,
+      "Monetary": 1952700.0
+    },
+    {
+      "PCA1": 1.3424,
+      "PCA2": 0.0566,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 28,
+      "Frequency": 21,
+      "Monetary": 10859600.0
+    },
+    {
+      "PCA1": -0.1124,
+      "PCA2": -0.7027,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 10,
+      "Monetary": 1146300.0
+    },
+    {
+      "PCA1": -0.5295,
+      "PCA2": 0.0198,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 78,
+      "Frequency": 9,
+      "Monetary": 1996700.0
+    },
+    {
+      "PCA1": -0.1006,
+      "PCA2": -0.8179,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 10,
+      "Frequency": 9,
+      "Monetary": 1799600.0
+    },
+    {
+      "PCA1": 2.1055,
+      "PCA2": 0.5677,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 14,
+      "Frequency": 18,
+      "Monetary": 27999700.0
+    },
+    {
+      "PCA1": 0.0311,
+      "PCA2": -0.8486,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 10,
+      "Monetary": 1996000.0
+    },
+    {
+      "PCA1": 2.1733,
+      "PCA2": 0.8503,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 30,
+      "Frequency": 19,
+      "Monetary": 29510300.0
+    },
+    {
+      "PCA1": -1.4287,
+      "PCA2": -0.0797,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 91,
+      "Frequency": 1,
+      "Monetary": 57000.0
+    },
+    {
+      "PCA1": 0.0496,
+      "PCA2": -0.6226,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 11,
+      "Monetary": 2486900.0
+    },
+    {
+      "PCA1": -0.399,
+      "PCA2": -0.4517,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 42,
+      "Frequency": 8,
+      "Monetary": 1746500.0
+    },
+    {
+      "PCA1": -0.8262,
+      "PCA2": -0.2811,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 63,
+      "Frequency": 5,
+      "Monetary": 1280400.0
+    },
+    {
+      "PCA1": 0.6646,
+      "PCA2": -0.5744,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 14,
+      "Monetary": 6856600.0
+    },
+    {
+      "PCA1": -0.691,
+      "PCA2": -1.0814,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 3,
+      "Monetary": 136700.0
+    },
+    {
+      "PCA1": -0.605,
+      "PCA2": -0.2894,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 58,
+      "Frequency": 7,
+      "Monetary": 1493200.0
+    },
+    {
+      "PCA1": 0.9874,
+      "PCA2": 0.4156,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 65,
+      "Frequency": 21,
+      "Monetary": 8744200.0
+    },
+    {
+      "PCA1": -0.3404,
+      "PCA2": -0.1906,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 60,
+      "Frequency": 10,
+      "Monetary": 1706400.0
+    },
+    {
+      "PCA1": -0.8495,
+      "PCA2": -0.4935,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 49,
+      "Frequency": 4,
+      "Monetary": 820300.0
+    },
+    {
+      "PCA1": -0.7443,
+      "PCA2": 0.1752,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 94,
+      "Frequency": 8,
+      "Monetary": 1582900.0
+    },
+    {
+      "PCA1": -0.0471,
+      "PCA2": -0.8794,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 9,
+      "Monetary": 2067600.0
+    },
+    {
+      "PCA1": -1.2201,
+      "PCA2": 0.1999,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 106,
+      "Frequency": 4,
+      "Monetary": 783300.0
+    },
+    {
+      "PCA1": -0.8597,
+      "PCA2": 0.2361,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 100,
+      "Frequency": 7,
+      "Monetary": 1801100.0
+    },
+    {
+      "PCA1": -0.4624,
+      "PCA2": -0.1695,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 64,
+      "Frequency": 9,
+      "Monetary": 1569300.0
+    },
+    {
+      "PCA1": -0.032,
+      "PCA2": 0.2172,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 75,
+      "Frequency": 12,
+      "Monetary": 5873900.0
+    },
+    {
+      "PCA1": 3.223,
+      "PCA2": 1.2225,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 23,
+      "Frequency": 26,
+      "Monetary": 36526100.0
+    },
+    {
+      "PCA1": -0.5208,
+      "PCA2": -0.9049,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 13,
+      "Frequency": 5,
+      "Monetary": 953600.0
+    },
+    {
+      "PCA1": -0.8147,
+      "PCA2": -0.3759,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 57,
+      "Frequency": 5,
+      "Monetary": 782100.0
+    },
+    {
+      "PCA1": -0.3418,
+      "PCA2": -0.6726,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 21,
+      "Frequency": 6,
+      "Monetary": 3548800.0
+    },
+    {
+      "PCA1": 0.7666,
+      "PCA2": -0.1055,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 16,
+      "Monetary": 8788800.0
+    },
+    {
+      "PCA1": -1.7814,
+      "PCA2": 0.7872,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 160,
+      "Frequency": 2,
+      "Monetary": 146400.0
+    },
+    {
+      "PCA1": 0.7163,
+      "PCA2": -0.4434,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 11,
+      "Frequency": 15,
+      "Monetary": 7127700.0
+    },
+    {
+      "PCA1": -0.6644,
+      "PCA2": -0.8663,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 4,
+      "Monetary": 658200.0
+    },
+    {
+      "PCA1": 0.0989,
+      "PCA2": -0.0774,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 52,
+      "Frequency": 12,
+      "Monetary": 5547600.0
+    },
+    {
+      "PCA1": 0.5061,
+      "PCA2": -0.461,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 13,
+      "Monetary": 6878900.0
+    },
+    {
+      "PCA1": -0.9711,
+      "PCA2": 0.1443,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 97,
+      "Frequency": 6,
+      "Monetary": 1030400.0
+    },
+    {
+      "PCA1": 2.3921,
+      "PCA2": 0.6461,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 11,
+      "Frequency": 20,
+      "Monetary": 29643500.0
+    },
+    {
+      "PCA1": -1.3995,
+      "PCA2": 0.262,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 115,
+      "Frequency": 3,
+      "Monetary": 187600.0
+    },
+    {
+      "PCA1": -1.1062,
+      "PCA2": -0.69,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 41,
+      "Frequency": 1,
+      "Monetary": 42400.0
+    },
+    {
+      "PCA1": -1.3776,
+      "PCA2": 1.1764,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 178,
+      "Frequency": 7,
+      "Monetary": 1554600.0
+    },
+    {
+      "PCA1": -0.2209,
+      "PCA2": -0.3383,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 46,
+      "Frequency": 10,
+      "Monetary": 2235200.0
+    },
+    {
+      "PCA1": 3.1023,
+      "PCA2": 0.8175,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 8,
+      "Frequency": 27,
+      "Monetary": 30931400.0
+    },
+    {
+      "PCA1": -0.7001,
+      "PCA2": -0.5968,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 39,
+      "Frequency": 5,
+      "Monetary": 749700.0
+    },
+    {
+      "PCA1": -0.408,
+      "PCA2": -0.4589,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 42,
+      "Frequency": 8,
+      "Monetary": 1582300.0
+    },
+    {
+      "PCA1": -1.302,
+      "PCA2": 0.0795,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 100,
+      "Frequency": 3,
+      "Monetary": 197600.0
+    },
+    {
+      "PCA1": -1.4735,
+      "PCA2": 0.1999,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 112,
+      "Frequency": 2,
+      "Monetary": 100700.0
+    },
+    {
+      "PCA1": 0.0415,
+      "PCA2": -0.8403,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 5,
+      "Frequency": 10,
+      "Monetary": 2185500.0
+    },
+    {
+      "PCA1": 0.3594,
+      "PCA2": -0.4249,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 20,
+      "Frequency": 12,
+      "Monetary": 6527700.0
+    },
+    {
+      "PCA1": -0.9438,
+      "PCA2": -0.8003,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 2,
+      "Monetary": 90300.0
+    },
+    {
+      "PCA1": 0.7187,
+      "PCA2": -0.0048,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 39,
+      "Frequency": 16,
+      "Monetary": 8859700.0
+    },
+    {
+      "PCA1": -1.3576,
+      "PCA2": -0.2139,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 80,
+      "Frequency": 1,
+      "Monetary": 56500.0
+    },
+    {
+      "PCA1": -0.867,
+      "PCA2": -0.7533,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 32,
+      "Frequency": 3,
+      "Monetary": 111600.0
+    },
+    {
+      "PCA1": 3.4193,
+      "PCA2": 1.2952,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 21,
+      "Frequency": 27,
+      "Monetary": 38256800.0
+    },
+    {
+      "PCA1": -0.8812,
+      "PCA2": -0.5188,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 49,
+      "Frequency": 4,
+      "Monetary": 240400.0
+    },
+    {
+      "PCA1": 3.7557,
+      "PCA2": 1.2713,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 7,
+      "Frequency": 28,
+      "Monetary": 41129300.0
+    },
+    {
+      "PCA1": 0.3778,
+      "PCA2": -0.5111,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 17,
+      "Frequency": 13,
+      "Monetary": 4890500.0
+    },
+    {
+      "PCA1": 1.3416,
+      "PCA2": -0.3113,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 4,
+      "Frequency": 20,
+      "Monetary": 9628200.0
+    },
+    {
+      "PCA1": -0.182,
+      "PCA2": -0.5737,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 25,
+      "Frequency": 8,
+      "Monetary": 3703200.0
+    },
+    {
+      "PCA1": -0.8469,
+      "PCA2": -0.9832,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 2,
+      "Monetary": 90100.0
+    },
+    {
+      "PCA1": -0.0374,
+      "PCA2": -0.8401,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 3,
+      "Frequency": 8,
+      "Monetary": 3746600.0
+    },
+    {
+      "PCA1": -0.5535,
+      "PCA2": -0.3871,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 50,
+      "Frequency": 7,
+      "Monetary": 1489000.0
+    },
+    {
+      "PCA1": 3.7414,
+      "PCA2": 1.3498,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 15,
+      "Frequency": 29,
+      "Monetary": 40193800.0
+    },
+    {
+      "PCA1": -2.7166,
+      "PCA2": 2.3457,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 290,
+      "Frequency": 1,
+      "Monetary": 36000.0
+    },
+    {
+      "PCA1": 0.9253,
+      "PCA2": -0.1667,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 23,
+      "Frequency": 17,
+      "Monetary": 9125200.0
+    },
+    {
+      "PCA1": -1.5897,
+      "PCA2": 0.8073,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 158,
+      "Frequency": 4,
+      "Monetary": 173600.0
+    },
+    {
+      "PCA1": 1.433,
+      "PCA2": -0.2181,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 21,
+      "Monetary": 10151700.0
+    },
+    {
+      "PCA1": 0.5105,
+      "PCA2": -0.5474,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 12,
+      "Monetary": 7633200.0
+    },
+    {
+      "PCA1": -1.3202,
+      "PCA2": -0.2881,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 74,
+      "Frequency": 1,
+      "Monetary": 31000.0
+    },
+    {
+      "PCA1": -0.818,
+      "PCA2": -0.7491,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 30,
+      "Frequency": 3,
+      "Monetary": 769200.0
+    },
+    {
+      "PCA1": 0.0929,
+      "PCA2": -0.4463,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 31,
+      "Frequency": 12,
+      "Monetary": 2958500.0
+    },
+    {
+      "PCA1": 0.8959,
+      "PCA2": -0.4013,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 8,
+      "Frequency": 16,
+      "Monetary": 8435200.0
+    },
+    {
+      "PCA1": 3.3979,
+      "PCA2": 1.4342,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 30,
+      "Frequency": 27,
+      "Monetary": 38928300.0
+    },
+    {
+      "PCA1": -0.6159,
+      "PCA2": -0.1041,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 72,
+      "Frequency": 8,
+      "Monetary": 1329300.0
+    },
+    {
+      "PCA1": -1.7616,
+      "PCA2": 1.1387,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 185,
+      "Frequency": 4,
+      "Monetary": 222200.0
+    },
+    {
+      "PCA1": -0.5477,
+      "PCA2": 0.3316,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 94,
+      "Frequency": 8,
+      "Monetary": 5172200.0
+    },
+    {
+      "PCA1": 0.5751,
+      "PCA2": -0.3856,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 14,
+      "Monetary": 6993700.0
+    },
+    {
+      "PCA1": 2.8661,
+      "PCA2": 0.6925,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 6,
+      "Frequency": 25,
+      "Monetary": 29617500.0
+    },
+    {
+      "PCA1": -1.8096,
+      "PCA2": 0.834,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 164,
+      "Frequency": 2,
+      "Monetary": 102400.0
+    },
+    {
+      "PCA1": -0.5775,
+      "PCA2": 0.155,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 88,
+      "Frequency": 9,
+      "Monetary": 2301200.0
+    },
+    {
+      "PCA1": -1.6869,
+      "PCA2": 0.4083,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 131,
+      "Frequency": 1,
+      "Monetary": 64700.0
+    },
+    {
+      "PCA1": 2.1819,
+      "PCA2": 1.4672,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 68,
+      "Frequency": 20,
+      "Monetary": 32537400.0
+    },
+    {
+      "PCA1": -2.431,
+      "PCA2": 1.8101,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 246,
+      "Frequency": 1,
+      "Monetary": 55800.0
+    },
+    {
+      "PCA1": -2.4151,
+      "PCA2": 1.982,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 258,
+      "Frequency": 2,
+      "Monetary": 145900.0
+    },
+    {
+      "PCA1": -0.5279,
+      "PCA2": -0.2248,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 61,
+      "Frequency": 8,
+      "Monetary": 1637100.0
+    },
+    {
+      "PCA1": 2.2621,
+      "PCA2": 0.5017,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 3,
+      "Frequency": 18,
+      "Monetary": 29562300.0
+    },
+    {
+      "PCA1": 0.9064,
+      "PCA2": -0.3377,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 14,
+      "Frequency": 17,
+      "Monetary": 7717000.0
+    },
+    {
+      "PCA1": 4.194,
+      "PCA2": 1.8314,
+      "Cluster": 1,
+      "SegmentLabel": "VIP 고객",
+      "Recency": 22,
+      "Frequency": 29,
+      "Monetary": 49287600.0
+    },
+    {
+      "PCA1": -0.1322,
+      "PCA2": -0.7043,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 18,
+      "Frequency": 9,
+      "Monetary": 2168000.0
+    },
+    {
+      "PCA1": -0.3737,
+      "PCA2": -0.2549,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 55,
+      "Frequency": 9,
+      "Monetary": 2127000.0
+    },
+    {
+      "PCA1": -1.3802,
+      "PCA2": 1.1224,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 175,
+      "Frequency": 7,
+      "Monetary": 1152900.0
+    },
+    {
+      "PCA1": 0.7483,
+      "PCA2": -0.328,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 19,
+      "Frequency": 16,
+      "Monetary": 7038700.0
+    },
+    {
+      "PCA1": 0.2122,
+      "PCA2": -0.7675,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 7,
+      "Frequency": 12,
+      "Monetary": 2303000.0
+    },
+    {
+      "PCA1": 0.6866,
+      "PCA2": 0.2297,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 54,
+      "Frequency": 16,
+      "Monetary": 10044400.0
+    },
+    {
+      "PCA1": 0.7724,
+      "PCA2": -0.3783,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 15,
+      "Frequency": 16,
+      "Monetary": 7005100.0
+    },
+    {
+      "PCA1": 0.213,
+      "PCA2": -0.7842,
+      "Cluster": 0,
+      "SegmentLabel": "활성 고객",
+      "Recency": 6,
+      "Frequency": 12,
+      "Monetary": 2199300.0
+    }
+  ],
+  "segment_profile": [
+    {
+      "Cluster": 1,
+      "고객수": 204,
+      "평균_최근성": 15.55,
+      "평균_빈도": 24.99,
+      "평균_금액": 36769295.59,
+      "RFM_평균": 14.13,
+      "라벨": "VIP 고객"
+    },
+    {
+      "Cluster": 0,
+      "고객수": 1796,
+      "평균_최근성": 61.69,
+      "평균_빈도": 8.94,
+      "평균_금액": 3218030.9,
+      "RFM_평균": 8.43,
+      "라벨": "활성 고객"
+    }
+  ],
+  "category_spend": {
+    "교통": 1951168600.0,
+    "기타": 1002616700.0,
+    "문화": 1303322900.0,
+    "쇼핑": 3319383900.0,
+    "식비": 4023578800.0,
+    "여행": 608659600.0,
+    "의료": 1071789300.0
+  },
+  "rfm_stats": {
+    "Recency": {
+      "count": 2000.0,
+      "mean": 56.98,
+      "std": 70.74,
+      "min": 2.0,
+      "25%": 13.0,
+      "50%": 29.0,
+      "75%": 72.0,
+      "max": 365.0
+    },
+    "Frequency": {
+      "count": 2000.0,
+      "mean": 10.57,
+      "std": 7.37,
+      "min": 1.0,
+      "25%": 5.0,
+      "50%": 9.0,
+      "75%": 15.0,
+      "max": 39.0
+    },
+    "Monetary": {
+      "count": 2000.0,
+      "mean": 6640259.9,
+      "std": 11028626.85,
+      "min": 1000.0,
+      "25%": 863850.0,
+      "50%": 2004800.0,
+      "75%": 7517600.0,
+      "max": 64429800.0
+    }
+  },
+  "cluster_label_map": {
+    "1": "VIP 고객",
+    "0": "활성 고객"
+  },
+  "total_customers": 2000,
+  "total_transactions": 21146
+}

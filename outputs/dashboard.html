@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>금융 데이터 분석 포트폴리오</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --surface2: #1a2234;
+    --border: rgba(99,179,237,0.15);
+    --accent1: #63b3ed;
+    --accent2: #f6ad55;
+    --accent3: #68d391;
+    --accent4: #fc8181;
+    --text: #e2e8f0;
+    --muted: #718096;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans KR', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── Layout ── */
+  .shell { display: flex; min-height: 100vh; }
+
+  .sidebar {
+    width: 220px;
+    min-width: 220px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .logo {
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent1);
+    font-family: var(--mono);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .logo-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  .nav { padding: 16px 0; flex: 1; }
+  .nav-section { padding: 8px 20px 4px; font-size: 10px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; font-family: var(--mono); }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: all 0.15s;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .nav-item:hover { background: var(--surface2); color: var(--text); }
+  .nav-item.active { border-left-color: var(--accent1); background: rgba(99,179,237,0.07); color: var(--accent1); }
+  .nav-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  .main { flex: 1; overflow-y: auto; }
+
+  .page { display: none; padding: 32px 36px; }
+  .page.active { display: block; }
+
+  /* ── Overview ── */
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 32px; }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+  }
+  .kpi.c1::before { background: var(--accent4); }
+  .kpi.c2::before { background: var(--accent2); }
+  .kpi.c3::before { background: var(--accent3); }
+  .kpi.c4::before { background: var(--accent1); }
+  .kpi-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-family: var(--mono); }
+  .kpi-value { font-size: 28px; font-weight: 600; margin: 8px 0 4px; font-family: var(--mono); }
+  .kpi-sub { font-size: 11px; color: var(--muted); }
+
+  .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .card.wide { grid-column: 1 / -1; }
+  .card-title {
+    font-size: 12px;
+    font-family: var(--mono);
+    color: var(--accent1);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── Page Title ── */
+  .page-header { margin-bottom: 28px; }
+  .page-tag {
+    font-size: 11px;
+    font-family: var(--mono);
+    color: var(--accent1);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+  }
+  .page-title { font-size: 22px; font-weight: 600; color: var(--text); }
+  .page-desc { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+  /* ── Model badge ── */
+  .badge-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+  .badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  .badge.blue  { color: var(--accent1); border-color: rgba(99,179,237,0.4); background: rgba(99,179,237,0.08); }
+  .badge.amber { color: var(--accent2); border-color: rgba(246,173,85,0.4);  background: rgba(246,173,85,0.08); }
+  .badge.green { color: var(--accent3); border-color: rgba(104,211,145,0.4); background: rgba(104,211,145,0.08); }
+  .badge.red   { color: var(--accent4); border-color: rgba(252,129,129,0.4); background: rgba(252,129,129,0.08); }
+
+  /* ── Metrics table ── */
+  .metrics-row {
+    display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;
+  }
+  .metric-box {
+    flex: 1; min-width: 100px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+  }
+  .metric-box .val { font-family: var(--mono); font-size: 20px; font-weight: 600; }
+  .metric-box .lbl { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  /* ── Confusion Matrix ── */
+  .cm-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    max-width: 200px;
+  }
+  .cm-cell {
+    padding: 16px 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cm-tn { background: rgba(104,211,145,0.15); color: var(--accent3); }
+  .cm-fp { background: rgba(252,129,129,0.10); color: var(--accent4); }
+  .cm-fn { background: rgba(252,129,129,0.10); color: var(--accent4); }
+  .cm-tp { background: rgba(104,211,145,0.25); color: var(--accent3); }
+  .cm-label { font-size: 10px; color: var(--muted); margin-top: 4px; }
+
+  canvas { max-height: 280px; }
+
+  /* ── Scatter tooltip ── */
+  #scatter-tooltip {
+    position: fixed;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 12px;
+    font-family: var(--mono);
+    pointer-events: none;
+    display: none;
+    z-index: 999;
+    line-height: 1.8;
+  }
+
+  /* ── Progress bar ── */
+  .bar-row { margin-bottom: 10px; }
+  .bar-label-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+  .bar-label { font-size: 12px; }
+  .bar-val { font-family: var(--mono); font-size: 12px; color: var(--accent1); }
+  .bar-track { height: 6px; background: var(--surface2); border-radius: 3px; }
+  .bar-fill { height: 100%; border-radius: 3px; transition: width 0.6s ease; }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--surface); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<div id="scatter-tooltip"></div>
+
+<div class="shell">
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <div class="logo">
+      <div class="logo-title">Fin.Analytics</div>
+      <div class="logo-sub">금융 데이터 분석 포트폴리오</div>
+    </div>
+    <div class="nav">
+      <div class="nav-section">Overview</div>
+      <div class="nav-item active" onclick="goPage('overview',this)">
+        <span class="nav-dot" style="background:#a0aec0"></span>대시보드 홈
+      </div>
+      <div class="nav-section">Projects</div>
+      <div class="nav-item" onclick="goPage('fraud',this)">
+        <span class="nav-dot" style="background:#fc8181"></span>01. 사기 탐지
+      </div>
+      <div class="nav-item" onclick="goPage('churn',this)">
+        <span class="nav-dot" style="background:#f6ad55"></span>02. 이탈 예측
+      </div>
+      <div class="nav-item" onclick="goPage('segment',this)">
+        <span class="nav-dot" style="background:#68d391"></span>03. 세그멘테이션
+      </div>
+      <div class="nav-item" onclick="goPage('credit',this)">
+        <span class="nav-dot" style="background:#63b3ed"></span>04. 신용 점수
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- ══ OVERVIEW ══ -->
+    <div class="page active" id="page-overview">
+      <div class="page-header">
+        <div class="page-tag">Portfolio / Overview</div>
+        <div class="page-title">금융 데이터 분석 포트폴리오</div>
+        <div class="page-desc">카드사·금융 도메인 4개 핵심 분석 프로젝트 — Python · scikit-learn · LightGBM · SHAP</div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi c1">
+          <div class="kpi-label">Fraud AUC</div>
+          <div class="kpi-value" style="color:var(--accent4)">0.9997</div>
+          <div class="kpi-sub">XGBoost · SMOTE</div>
+        </div>
+        <div class="kpi c2">
+          <div class="kpi-label">Churn AUC</div>
+          <div class="kpi-value" style="color:var(--accent2)">0.6991</div>
+          <div class="kpi-sub">LightGBM 5-Fold CV</div>
+        </div>
+        <div class="kpi c3">
+          <div class="kpi-label">Segments</div>
+          <div class="kpi-value" style="color:var(--accent3)">K=2</div>
+          <div class="kpi-sub">Silhouette 0.6118</div>
+        </div>
+        <div class="kpi c4">
+          <div class="kpi-label">Credit AUC</div>
+          <div class="kpi-value" style="color:var(--accent1)">0.6541</div>
+          <div class="kpi-sub">RandomForest · SHAP</div>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="card wide">
+          <div class="card-title">프로젝트별 성능 요약</div>
+          <canvas id="cvOverview"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">기술 스택</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:4px">
+            <span class="badge blue">pandas</span><span class="badge blue">numpy</span><span class="badge blue">scikit-learn</span><span class="badge blue">lightgbm</span><span class="badge blue">xgboost</span><span class="badge blue">shap</span><span class="badge blue">imbalanced-learn</span><span class="badge blue">plotly</span><span class="badge blue">KMeans</span><span class="badge blue">SMOTE</span><span class="badge blue">PCA</span><span class="badge blue">LabelEncoder</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">데이터셋 규모</div>
+          <div class="bar-row"><div class="bar-label-row"><span class="bar-label">사기 탐지 (50,000건)</span><span class="bar-val">50K</span></div><div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--accent4)"></div></div></div>
+          <div class="bar-row"><div class="bar-label-row"><span class="bar-label">이탈 예측 (7,000명)</span><span class="bar-val">7K</span></div><div class="bar-track"><div class="bar-fill" style="width:14%;background:var(--accent2)"></div></div></div>
+          <div class="bar-row"><div class="bar-label-row"><span class="bar-label">세그멘테이션 (2,000고객 · 21K거래)</span><span class="bar-val">21K</span></div><div class="bar-track"><div class="bar-fill" style="width:42%;background:var(--accent3)"></div></div></div>
+          <div class="bar-row"><div class="bar-label-row"><span class="bar-label">신용 점수 (10,000명)</span><span class="bar-val">10K</span></div><div class="bar-track"><div class="bar-fill" style="width:20%;background:var(--accent1)"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ FRAUD ══ -->
+    <div class="page" id="page-fraud">
+      <div class="page-header">
+        <div class="page-tag">Project 01</div>
+        <div class="page-title">신용카드 사기 탐지</div>
+        <div class="page-desc">Isolation Forest · XGBoost · SMOTE — 불균형 이진 분류 (사기율 0.17%)</div>
+      </div>
+      <div class="badge-row">
+        <span class="badge red">XGBoost</span><span class="badge blue">Random Forest</span>
+        <span class="badge green">SMOTE</span><span class="badge amber">Isolation Forest</span>
+      </div>
+      <div class="metrics-row">
+        <div class="metric-box"><div class="val" style="color:var(--accent4)">0.9997</div><div class="lbl">RF AUC-ROC</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent3)">0.9441</div><div class="lbl">Average Precision</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent2)">0.1700%</div><div class="lbl">사기 비율</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent1)">50,000</div><div class="lbl">총 거래</div></div>
+      </div>
+      <div class="section-grid">
+        <div class="card">
+          <div class="card-title">ROC Curve — 모델 비교</div>
+          <canvas id="cvFraudROC"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">Confusion Matrix (XGBoost)</div>
+          <div style="display:flex;gap:32px;align-items:flex-start;margin-top:8px">
+            <div>
+              <div style="font-size:11px;color:var(--muted);margin-bottom:8px;font-family:var(--mono)">Predicted →</div>
+              <div class="cm-grid">
+                <div class="cm-cell cm-tn">9,983<div class="cm-label">TN</div></div>
+                <div class="cm-cell cm-fp">0<div class="cm-label">FP</div></div>
+                <div class="cm-cell cm-fn">4<div class="cm-label">FN</div></div>
+                <div class="cm-cell cm-tp">13<div class="cm-label">TP</div></div>
+              </div>
+            </div>
+            <div style="font-size:12px;color:var(--muted);line-height:2">
+              <div>정확도 <span style="color:var(--accent3);font-family:var(--mono)">99.96%</span></div>
+              <div>재현율 <span style="color:var(--accent2);font-family:var(--mono)">76.5%</span></div>
+              <div>정밀도 <span style="color:var(--accent1);font-family:var(--mono)">100%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Feature Importance (XGBoost)</div>
+          <div id="fraudFeatBars"></div>
+        </div>
+        <div class="card">
+          <div class="card-title">모델별 AUC 비교</div>
+          <canvas id="cvFraudAUC"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ CHURN ══ -->
+    <div class="page" id="page-churn">
+      <div class="page-header">
+        <div class="page-tag">Project 02</div>
+        <div class="page-title">고객 이탈 예측</div>
+        <div class="page-desc">LightGBM 5-Fold CV · SHAP · 코호트 분석 — 이탈율 4.99%</div>
+      </div>
+      <div class="badge-row">
+        <span class="badge amber">LightGBM</span><span class="badge blue">SHAP</span>
+        <span class="badge green">5-Fold CV</span><span class="badge red">Cohort Analysis</span>
+      </div>
+      <div class="metrics-row">
+        <div class="metric-box"><div class="val" style="color:var(--accent2)">0.6857</div><div class="lbl">Test AUC</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent1)">0.6991</div><div class="lbl">CV Mean AUC</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent3)">15.6%</div><div class="lbl">신규 이탈율</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent4)">7,000</div><div class="lbl">총 고객</div></div>
+      </div>
+      <div class="section-grid">
+        <div class="card">
+          <div class="card-title">코호트별 이탈율 (체류 기간)</div>
+          <canvas id="cvChurnCohort"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">ROC Curve</div>
+          <canvas id="cvChurnROC"></canvas>
+        </div>
+        <div class="card wide">
+          <div class="card-title">SHAP Feature Importance</div>
+          <div id="churnShapBars"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ SEGMENT ══ -->
+    <div class="page" id="page-segment">
+      <div class="page-header">
+        <div class="page-tag">Project 03</div>
+        <div class="page-title">소비 패턴 분석 & 세그멘테이션</div>
+        <div class="page-desc">RFM 분석 · K-Means · PCA 2D — 2,000 고객 · 21,146 거래</div>
+      </div>
+      <div class="badge-row">
+        <span class="badge green">K-Means</span><span class="badge blue">PCA</span>
+        <span class="badge amber">RFM 분석</span><span class="badge red">Silhouette 0.6118</span>
+      </div>
+      <div class="metrics-row">
+        <div class="metric-box"><div class="val" style="color:var(--accent3)">K=2</div><div class="lbl">최적 클러스터</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent1)">0.6118</div><div class="lbl">Silhouette Score</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent2)">95.8%</div><div class="lbl">PCA 설명 분산</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent4)">2,000</div><div class="lbl">총 고객</div></div>
+      </div>
+      <div class="section-grid">
+        <div class="card wide">
+          <div class="card-title">PCA 클러스터 산점도 — 마우스를 올려보세요</div>
+          <canvas id="cvScatter" style="max-height:320px"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">카테고리별 총 지출 (억원)</div>
+          <canvas id="cvCatSpend"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">세그먼트 프로파일</div>
+          <div id="segProfile"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ CREDIT ══ -->
+    <div class="page" id="page-credit">
+      <div class="page-header">
+        <div class="page-tag">Project 04</div>
+        <div class="page-title">신용 점수 예측 모델</div>
+        <div class="page-desc">RandomForest · SHAP · WOE/IV — 부도율 5.4%</div>
+      </div>
+      <div class="badge-row">
+        <span class="badge blue">Random Forest</span><span class="badge amber">SHAP</span>
+        <span class="badge green">WOE/IV</span><span class="badge red">Calibration</span>
+      </div>
+      <div class="metrics-row">
+        <div class="metric-box"><div class="val" style="color:var(--accent1)">0.6541</div><div class="lbl">Test AUC</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent2)">5.4%</div><div class="lbl">부도율</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent3)">10K</div><div class="lbl">학습 샘플</div></div>
+        <div class="metric-box"><div class="val" style="color:var(--accent4)">300~850</div><div class="lbl">신용 점수 범위</div></div>
+      </div>
+      <div class="section-grid">
+        <div class="card">
+          <div class="card-title">신용 점수 분포 (300~850)</div>
+          <canvas id="cvCreditHist"></canvas>
+        </div>
+        <div class="card">
+          <div class="card-title">교육 수준별 부도율</div>
+          <canvas id="cvCreditEdu"></canvas>
+        </div>
+        <div class="card wide">
+          <div class="card-title">SHAP Feature Importance</div>
+          <div id="creditShapBars"></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+const D = {"fraud_aucs": {"Logistic Regression": 1.0, "Random Forest": 0.9997, "XGBoost": 0.9995, "Isolation Forest": 0.9535}, "fraud_aps": {"Logistic Regression": 0.9967, "Random Forest": 0.9441, "XGBoost": 0.8993, "Isolation Forest": 0.0273}, "churn_cohort_labels": ["0-12개월", "12-24개월", "24-36개월", "36-48개월", "48개월+"], "churn_cohort_rates": [15.59, 2.85, 2.37, 3.43, 2.54], "churn_cohort_counts": [1219, 1195, 1179, 1166, 2241], "churn_shap_feats": ["Tenure", "CreditLimit", "Age", "UtilizationRate", "MonthlySpend", "CSperYear", "LimitUtilAmount", "SpendPerMonth", "NumProducts", "CSContacts"], "churn_shap_vals": [0.887, 0.5058, 0.4805, 0.4302, 0.3881, 0.3675, 0.318, 0.2916, 0.2775, 0.2256], "seg_cats": ["교통", "기타", "문화", "쇼핑", "식비", "여행", "의료"], "seg_vals": [19, 10, 13, 33, 40, 6, 10], "seg_scatter_x": [-1.675, -0.111, -0.645, 1.013, 0.188, -0.279, 1.389, 0.228, 0.165, 3.389, 0.696, -1.275, 2.173, -1.133, -0.204, -0.673, -1.338, 0.382, -1.147, -0.967, 2.483, -0.548, -0.085, -0.134, -0.033, -2.19, -0.453, 0.872, -2.378, 3.073, -2.431, 1.394, -0.266, 0.795, -1.575, -1.589, -0.916, -0.69, -0.778, -0.431, 3.042, 2.745, 3.265, -0.578, 4.454, -0.037, 0.167, -1.263, 0.523, 0.053, 0.906, 0.838, -1.803, -3.006, -0.605, 0.164, -0.151, -0.334, -0.515, -0.36, 0.948, 0.3, -0.653, -0.959, 0.964, -1.469, 0.071, 0.118, 0.935, -0.396, -2.282, -1.223, -0.029, 3.444, -0.847, -0.557, 0.601, -0.662, -1.739, 0.313, -0.137, -0.055, -0.086, -0.568, -0.793, -2.452, -1.762, -1.792, -1.463, -0.7, 0.719, -1.088, -0.05, -2.3, 2.673, 0.513, 0.826, -2.238, -1.668, 0.299, 0.996, 1.433, -2.397, -0.891, -1.17, -1.327, 1.342, -1.028, 0.106, 1.034, -1.38, 0.185, -0.498, -0.852, -0.907, -0.767, 0.606, 4.095, -0.59, 0.919, 0.364, -0.746, 0.444, -0.744, -0.219, 3.018, 0.127, -1.81, -0.549, 0.335, -0.521, -1.592, -0.384, 0.507, -0.359, -0.529, -0.797, 0.712, 0.534, -1.197, -1.238, 1.424, 0.732, -1.008, 0.012, -0.132, -2.612, -0.633, 0.093, -1.06, -2.094, 0.293, 0.452, -0.836, 0.982, 0.497, -0.047, -1.602, -0.2, -0.242, 2.555, -1.069, 0.221, -0.931, 0.561, -3.096, -1.453, -0.881, -0.194, 0.422, -0.867, -1.235, 0.679, 0.448, -1.552, -0.847, 1.423, -1.177, -0.115, 3.116, -1.76, 1.486, -1.754, -0.483, -1.811, 0.716, 0.582, -0.789, -0.149, 0.901, -1.358, 0.772, -0.521, 0.086, 0.601, -0.112, -0.19, -2.398, -0.632, 3.223, 0.238, -0.91, -0.936, -1.153, 0.017, 4.084, -0.314, 0.213, -0.212, 0.143, -0.818, -2.554, -0.021, -0.503, -0.273, 0.121, -0.317, 3.97, 0.859, -0.126, -2.92, -0.223, 0.267, -1.053, -0.601, -0.071, -0.234, -0.804, 3.061, -0.342, -0.575, 1.087, -0.25, 2.232, 0.818, 0.541, -2.14, -1.389, 0.101, -1.15, 3.502, -1.023, 0.62, 1.456, 0.931, -0.638, 0.808, 0.099, -3.098, -0.118, -1.332, -0.517, -0.816, -0.092, 0.51, -1.233, 1.448, 1.097, -1.19, 1.724, 0.102, -2.493, 0.246, 0.434, -0.439, 0.021, -0.417, 4.953, -0.393, -2.717, 2.733, 0.116, -0.832, -0.226, -2.057, 0.665, -0.604, -0.994, -0.488, -1.824, 1.314, -2.05, -0.358, -1.637, -0.049, -0.29, -0.19, -0.596, -0.71, -0.193, -0.414, 1.213, -0.816, -1.006, -0.4, 0.752, 3.102, -0.321, -0.212, -0.583], "seg_scatter_y": [1.069, -0.58, -0.675, -0.371, -0.558, -0.052, -0.322, -0.588, -0.548, 1.045, -0.546, -0.179, 0.85, 0.449, -0.557, -0.925, 0.823, -0.386, -0.214, -0.098, 0.791, -0.646, -0.892, -0.775, -0.168, 1.554, -0.128, -0.472, 2.628, 1.027, 1.81, 0.118, -0.27, -0.204, 0.677, 0.42, -0.46, 0.114, 0.041, -0.442, 0.999, 0.791, 1.073, 0.155, 1.579, -0.84, 0.049, 0.27, -0.482, -0.655, -0.338, -0.451, 0.822, 2.895, -0.535, -0.809, 0.143, -0.979, -0.672, -0.702, -0.426, -0.455, -0.715, -0.462, -0.382, -0.008, 0.251, -0.776, -0.194, -0.872, 1.53, -0.47, -0.741, 1.239, -0.526, -0.39, -0.347, -0.671, 1.015, -0.725, -0.236, -0.217, -0.384, 0.007, -0.13, 1.846, 1.139, 0.796, 0.437, -0.597, -0.005, -0.728, -0.882, 1.567, 0.8, -0.487, -0.335, 1.444, 0.371, -0.123, -0.423, -0.218, 1.944, 0.264, 0.787, 0.112, 0.057, -0.836, -0.522, 0.224, 1.122, -0.069, -0.727, -0.284, -0.594, -0.934, -0.684, 1.75, -0.735, 0.075, 0.001, -0.266, 0.241, -0.774, -0.6, 1.177, -0.856, 0.834, -0.823, -0.5, -0.905, 0.611, -0.104, -0.37, -0.524, -0.946, -0.888, -0.132, -0.647, 0.149, -0.043, -0.052, 0.026, -0.872, -0.213, -0.704, 2.152, 0.232, -0.446, 0.317, 1.177, -0.558, -0.321, 0.345, -0.434, -0.589, -0.879, 1.182, -0.003, -0.674, 0.762, -0.376, -0.327, -0.825, -0.706, 3.067, 0.164, -0.519, -0.632, -0.67, -0.753, -0.446, -0.314, -0.713, 0.152, -0.983, -0.16, -0.362, -0.691, 1.464, 0.541, -0.21, 0.528, -0.716, 1.027, -0.443, -0.169, -0.899, -0.663, -0.432, -0.214, -0.378, -0.905, -0.345, -0.438, -0.703, -0.646, 1.944, -0.013, 1.222, -0.417, -0.666, -0.143, 0.08, -0.226, 1.47, -0.415, -0.784, -0.892, -0.323, -0.749, 2.041, -0.277, 0.359, -0.276, -0.06, -0.331, 1.361, -0.271, -0.575, 2.739, -0.323, -0.498, -0.101, -1.041, -0.881, -0.245, -0.876, 0.813, -0.673, 0.105, -0.313, -0.521, 0.619, -0.061, -0.222, 1.262, 0.429, -0.616, -0.604, 1.736, -0.603, -0.541, -0.099, -0.367, -0.247, -0.336, -0.077, 3.066, -0.832, 1.514, -0.427, -0.571, -0.652, -0.547, 0.138, -0.154, -0.269, -0.531, -0.098, -0.338, 1.934, -0.362, -0.31, -0.837, -0.822, -0.642, 1.931, -0.71, 2.346, 0.805, -0.31, -0.812, -0.852, 1.102, -0.383, 0.151, -0.314, -0.543, 1.56, -0.368, 1.09, -0.769, 0.503, 0.131, -0.449, -0.102, -0.791, -0.306, -0.701, -0.64, -0.14, 0.15, 0.501, -0.681, 0.357, 0.818, -0.861, -0.594, -0.182], "seg_scatter_c": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], "seg_scatter_l": ["활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "VIP 고객", "VIP 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "활성 고객", "VIP 고객", "활성 고객", "활성 고객", "활성 고객"], "seg_scatter_r": [177, 27, 32, 10, 23, 68, 4, 11, 19, 8, 6, 81, 30, 122, 27, 16, 153, 24, 76, 80, 18, 32, 5, 14, 50, 223, 66, 5, 302, 13, 246, 32, 52, 24, 147, 130, 54, 88, 85, 44, 10, 6, 4, 88, 4, 3, 59, 112, 12, 18, 14, 5, 163, 335, 41, 4, 79, 3, 29, 23, 7, 21, 30, 53, 6, 97, 75, 8, 21, 12, 223, 59, 14, 11, 47, 50, 19, 33, 174, 2, 48, 51, 40, 79, 73, 249, 185, 161, 128, 39, 39, 38, 4, 226, 7, 15, 15, 216, 128, 43, 5, 8, 255, 103, 146, 103, 28, 29, 26, 49, 175, 57, 25, 64, 43, 17, 5, 19, 26, 40, 50, 63, 63, 28, 28, 27, 3, 164, 19, 14, 13, 144, 67, 22, 36, 11, 21, 32, 2, 102, 90, 18, 43, 26, 51, 18, 274, 95, 31, 111, 194, 21, 33, 108, 5, 7, 4, 183, 70, 22, 13, 63, 32, 28, 3, 349, 109, 49, 25, 3, 32, 61, 23, 5, 110, 15, 9, 66, 18, 39, 142, 6, 141, 25, 178, 11, 33, 20, 24, 6, 80, 15, 13, 40, 11, 20, 24, 255, 78, 23, 26, 39, 76, 96, 50, 9, 43, 6, 8, 33, 30, 265, 46, 102, 52, 52, 48, 8, 20, 28, 322, 47, 20, 81, 6, 5, 52, 22, 4, 21, 85, 10, 34, 14, 34, 29, 201, 127, 18, 48, 37, 45, 7, 11, 14, 62, 13, 52, 349, 10, 201, 46, 43, 22, 6, 103, 11, 12, 54, 10, 34, 256, 26, 26, 16, 7, 29, 7, 24, 290, 13, 35, 27, 11, 188, 14, 89, 66, 38, 215, 2, 187, 19, 137, 68, 40, 61, 23, 59, 21, 29, 17, 93, 122, 26, 64, 8, 12, 28, 66], "seg_scatter_f": [4, 10, 5, 18, 13, 11, 21, 10, 11, 27, 15, 2, 19, 6, 8, 4, 6, 13, 3, 5, 21, 6, 9, 9, 11, 2, 9, 16, 5, 24, 1, 22, 10, 16, 3, 2, 4, 8, 7, 8, 23, 21, 23, 9, 32, 8, 13, 4, 13, 11, 17, 15, 2, 1, 6, 11, 13, 6, 6, 7, 17, 12, 5, 3, 16, 1, 13, 11, 17, 6, 1, 1, 10, 25, 4, 7, 14, 5, 3, 11, 10, 12, 11, 9, 6, 1, 4, 2, 3, 5, 16, 1, 9, 1, 20, 14, 16, 1, 1, 13, 17, 21, 2, 7, 7, 3, 21, 1, 12, 20, 7, 15, 6, 5, 3, 3, 16, 28, 5, 18, 14, 6, 15, 4, 9, 25, 11, 2, 5, 11, 5, 3, 10, 14, 8, 5, 3, 16, 13, 4, 3, 21, 17, 1, 13, 9, 1, 9, 12, 6, 1, 14, 16, 8, 17, 13, 9, 5, 12, 8, 21, 3, 12, 2, 15, 1, 2, 4, 9, 12, 3, 1, 16, 14, 1, 2, 20, 2, 9, 25, 1, 21, 1, 6, 3, 15, 15, 3, 10, 16, 1, 16, 5, 13, 13, 10, 9, 2, 8, 26, 12, 3, 5, 4, 13, 30, 9, 12, 8, 11, 3, 1, 12, 11, 10, 12, 9, 30, 17, 10, 1, 10, 12, 4, 4, 9, 10, 3, 25, 6, 9, 18, 9, 19, 17, 14, 1, 4, 11, 1, 25, 2, 14, 20, 18, 7, 15, 12, 1, 9, 9, 7, 4, 10, 12, 4, 21, 18, 1, 24, 11, 1, 11, 13, 6, 10, 7, 34, 7, 1, 23, 11, 3, 8, 1, 14, 9, 4, 7, 5, 20, 1, 7, 2, 11, 9, 11, 5, 6, 9, 7, 19, 7, 7, 7, 18, 27, 7, 9, 8], "seg_scatter_m": [853600, 2001800, 922500, 7574800, 2138500, 2147100, 8882200, 6291800, 4469600, 36159400, 6166100, 69800, 29510300, 1019200, 3536700, 142900, 944600, 5799900, 185100, 715700, 30506800, 1079600, 1501600, 1667500, 4522800, 119600, 1973500, 7649100, 1157900, 35836900, 55800, 10662500, 2130400, 8489400, 762400, 122300, 198100, 1857300, 1524400, 1401200, 36536200, 33881600, 39910300, 2301200, 47047000, 3746600, 5991600, 712800, 6955500, 2312600, 7717000, 8640600, 107300, 56100, 1103900, 2679700, 2547100, 1560500, 1322800, 1826200, 7656700, 5565400, 550800, 920900, 9447200, 27300, 6139000, 2326600, 9059300, 1503700, 64300, 43100, 1952700, 40765800, 633000, 1424200, 7589100, 730600, 957500, 5179700, 4011300, 2624900, 2365000, 1413500, 1449600, 35200, 222200, 69500, 564900, 749700, 8859700, 18300, 2012200, 84600, 34305000, 5512200, 7991800, 37600, 52100, 6525100, 8288700, 10151700, 121500, 1588400, 1565300, 99700, 10859600, 50500, 2615600, 9316800, 1152900, 2855400, 1174500, 935400, 681000, 157400, 2781900, 48748400, 1224000, 9407000, 6915600, 1124200, 8294700, 263500, 1768200, 34864500, 1890100, 102400, 1149600, 6987300, 947000, 89400, 1737700, 6229700, 1775600, 566800, 92000, 7901100, 5965400, 735800, 182200, 11164000, 7961400, 60300, 2224300, 2168000, 60500, 2111100, 2958500, 1066300, 76500, 2203600, 3281100, 1554800, 8032600, 5893000, 2067600, 1281900, 2217700, 2248400, 31241600, 90700, 5411600, 91400, 3349100, 79400, 113100, 240400, 1867400, 5659600, 111600, 50100, 6247000, 3126900, 50800, 90100, 11706300, 76800, 2476800, 38083000, 32500, 10889500, 11800, 1443600, 110800, 7127700, 7264400, 125500, 949000, 8292900, 56500, 7005100, 953600, 2268600, 8248400, 1146300, 1822400, 101700, 1740000, 36526100, 5027500, 146000, 801100, 831600, 2199000, 44130900, 1800900, 2199300, 1150700, 5736400, 769200, 44100, 2644200, 2073300, 1989200, 5956700, 2341600, 41915000, 7563500, 1851400, 96200, 2309500, 4840700, 883300, 284800, 1756500, 2707100, 84400, 32946500, 3548800, 1984600, 8916300, 1907400, 28686200, 8463500, 7672700, 58200, 171600, 3192800, 68900, 44903900, 418300, 6512400, 12539900, 6541500, 1353700, 9038500, 5547600, 46400, 1479200, 1865000, 1681500, 726800, 1750300, 7633200, 198100, 10780100, 9346700, 51100, 10850900, 5100500, 100600, 6792800, 6979600, 1185400, 2046900, 1508500, 53290000, 1353800, 36000, 31243400, 5471600, 167500, 1245300, 35300, 8172200, 1934800, 190700, 1272700, 1007300, 8884500, 38400, 1393900, 70200, 6354000, 1875700, 2956200, 760600, 1320600, 1410800, 1558400, 10427100, 1774600, 1727400, 1466500, 9177400, 30931400, 1244800, 1895300, 1218300], "seg_prof_labels": ["VIP 고객", "활성 고객"], "seg_prof_counts": [204, 1796], "seg_prof_rfm": [14.13, 8.43], "credit_bins": [627.5, 638.2, 648.8, 659.4, 670.0, 680.6, 691.2, 701.9, 712.5, 723.1, 733.7, 744.3, 755.0, 765.6, 776.2, 786.8, 797.4, 808.0, 818.7, 829.3], "credit_cnts": [1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 8, 11, 36, 68, 175, 376, 808, 513], "credit_shap_feats": ["AGE", "avg_delay", "PAY_AMT5", "avg_payment", "PAY_AMT6", "BILL_AMT1", "avg_bill", "util_rate", "BILL_AMT6", "BILL_AMT3"], "credit_shap_vals": [0.0716, 0.0622, 0.0547, 0.0535, 0.0532, 0.0459, 0.0423, 0.0407, 0.0389, 0.0386], "credit_edu_keys": ["1", "2", "3", "4"], "credit_edu_vals": [8.16, 6.26, 3.7, 2.55], "fraud_roc_xgb_fpr": [0.0, 0.0, 0.0004006811579685465, 0.0017028949213663228, 0.005108684764098969, 0.006210557948512471, 0.010918561554642893, 0.026044275267955524, 0.026945807873384756, 0.031052789742562356, 0.03265551437443654, 0.042271862165681656, 0.04287288390263448, 0.0434739056395873, 0.04427526795552439, 0.04938395271962336, 0.049884804167084046, 0.05088650706200541, 0.05429229690473805, 0.057898427326454976, 0.05950115195832916, 0.0880496844635881, 0.0891515576480016, 0.08985274967444656, 0.09055394170089151, 0.09195632575378143, 0.09275768806971853, 0.09335870980667134, 0.16588199939897827, 0.1667835320044075, 0.9658419312831814, 0.9675448262045477, 0.968446358809977, 0.9755584493639187, 0.9763598116798557, 0.9770610037063007, 0.9780627066012221, 0.9795652609436041, 0.9851747971551638, 0.9866773514975459, 0.9870780326555144, 0.9893819493138335, 0.9903836522087549, 0.9924872282880898, 0.9929880797355505, 0.9936892717619954, 0.9942902934989483, 0.9964940398677752, 0.997095061604728, 0.997796253631173], "fraud_roc_xgb_tpr": [0.0, 0.29411764705882354, 0.7647058823529411, 0.9411764705882353, 0.9411764705882353, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "fraud_roc_rf_fpr": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.00010017028949213663, 0.00010017028949213663, 0.00010017028949213663, 0.00010017028949213663, 0.0003005108684764099, 0.0003005108684764099, 0.0003005108684764099, 0.0003005108684764099, 0.0005008514474606832, 0.0005008514474606832, 0.0007011920264449565, 0.0007011920264449565, 0.0009015326054292297, 0.0009015326054292297, 0.0011018731844135029, 0.0011018731844135029, 0.0012020434739056396, 0.0012020434739056396, 0.001402384052889913, 0.001402384052889913, 0.0015025543423820495, 0.0015025543423820495, 0.002103576079334869, 0.002103576079334869, 0.0022037463688270057, 0.0022037463688270057, 0.0026044275267955524, 0.0026044275267955524, 0.0037063007112090552, 0.0037063007112090552, 0.0046078333166382855, 0.0046078333166382855, 0.006611239106481018, 0.006611239106481018, 0.011719923870579987, 0.011719923870579987, 0.03606130421716919, 0.03606130421716919], "fraud_roc_rf_tpr": [0.0, 0.0, 0.058823529411764705, 0.058823529411764705, 0.17647058823529413, 0.17647058823529413, 0.35294117647058826, 0.35294117647058826, 0.47058823529411764, 0.47058823529411764, 0.8235294117647058, 0.8235294117647058, 0.8235294117647058, 0.8235294117647058, 0.8823529411764706, 0.8823529411764706, 0.8823529411764706, 0.8823529411764706, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 0.9411764705882353, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "churn_roc_fpr": [0.0, 0.0015037593984962407, 0.004511278195488722, 0.009022556390977444, 0.017293233082706767, 0.02030075187969925, 0.02706766917293233, 0.03308270676691729, 0.0481203007518797, 0.05112781954887218, 0.05789473684210526, 0.06390977443609022, 0.06766917293233082, 0.06842105263157895, 0.08947368421052632, 0.1, 0.10977443609022557, 0.12330827067669173, 0.12857142857142856, 0.13157894736842105, 0.1593984962406015, 0.17819548872180452, 0.18270676691729323, 0.24436090225563908, 0.2518796992481203, 0.2586466165413534, 0.27518796992481204, 0.3105263157894737, 0.3112781954887218, 0.31278195488721805, 0.3526315789473684, 0.37969924812030076, 0.3849624060150376, 0.40225563909774437, 0.41578947368421054, 0.4180451127819549, 0.4473684210526316, 0.46015037593984964, 0.4699248120300752, 0.5270676691729324, 0.6669172932330827, 0.675187969924812, 0.7593984962406015, 0.7699248120300752, 0.7729323308270677, 0.8233082706766918, 0.8338345864661654, 0.8654135338345864, 0.8781954887218045, 0.9781954887218045], "churn_roc_tpr": [0.0, 0.0, 0.02857142857142857, 0.04285714285714286, 0.05714285714285714, 0.08571428571428572, 0.1, 0.11428571428571428, 0.12857142857142856, 0.15714285714285714, 0.17142857142857143, 0.18571428571428572, 0.22857142857142856, 0.2571428571428571, 0.3, 0.32857142857142857, 0.35714285714285715, 0.37142857142857144, 0.4, 0.4142857142857143, 0.42857142857142855, 0.44285714285714284, 0.4714285714285714, 0.4857142857142857, 0.5, 0.5285714285714286, 0.5428571428571428, 0.5571428571428572, 0.5857142857142857, 0.6, 0.6142857142857143, 0.6428571428571429, 0.6571428571428571, 0.6714285714285714, 0.6857142857142857, 0.7142857142857143, 0.7285714285714285, 0.7428571428571429, 0.7857142857142857, 0.8, 0.8142857142857143, 0.8428571428571429, 0.8571428571428571, 0.8714285714285714, 0.8857142857142857, 0.9142857142857143, 0.9285714285714286, 0.9428571428571428, 0.9714285714285714, 0.9857142857142858], "credit_roc_fpr": [0.0, 0.006342494714587738, 0.010570824524312896, 0.013213530655391121, 0.02061310782241015, 0.022727272727272728, 0.026427061310782242, 0.0306553911205074, 0.0554968287526427, 0.0613107822410148, 0.07822410147991543, 0.09619450317124736, 0.11892177589852009, 0.13742071881606766, 0.14587737843551796, 0.1553911205073996, 0.17124735729386892, 0.1945031712473573, 0.20983086680761098, 0.21987315010570824, 0.23520084566596194, 0.24841437632135308, 0.25052854122621565, 0.2616279069767442, 0.2700845665961945, 0.273784355179704, 0.2817124735729387, 0.28752642706131076, 0.3192389006342495, 0.3535940803382664, 0.36469344608879495, 0.4164904862579281, 0.4376321353065539, 0.46617336152219874, 0.4846723044397463, 0.49577167019027485, 0.5211416490486258, 0.5792811839323467, 0.5893234672304439, 0.5988372093023255, 0.6675475687103594, 0.7151162790697675, 0.7251585623678647, 0.7484143763213531, 0.7933403805496829, 0.8076109936575053, 0.8567653276955602, 0.9075052854122622, 0.9371035940803383, 0.9519027484143763], "credit_roc_tpr": [0.0, 0.009259259259259259, 0.027777777777777776, 0.05555555555555555, 0.08333333333333333, 0.10185185185185185, 0.12037037037037036, 0.1388888888888889, 0.1574074074074074, 0.17592592592592593, 0.2037037037037037, 0.2222222222222222, 0.25, 0.26851851851851855, 0.28703703703703703, 0.3055555555555556, 0.32407407407407407, 0.35185185185185186, 0.37037037037037035, 0.4074074074074074, 0.42592592592592593, 0.4444444444444444, 0.46296296296296297, 0.49074074074074076, 0.5092592592592593, 0.5277777777777778, 0.5462962962962963, 0.5648148148148148, 0.5833333333333334, 0.6018518518518519, 0.6203703703703703, 0.6388888888888888, 0.6574074074074074, 0.6851851851851852, 0.7129629629629629, 0.7314814814814815, 0.75, 0.7685185185185185, 0.7870370370370371, 0.8055555555555556, 0.8240740740740741, 0.8425925925925926, 0.8611111111111112, 0.8796296296296297, 0.8981481481481481, 0.9166666666666666, 0.9351851851851852, 0.9537037037037037, 0.9722222222222222, 0.9907407407407407], "fraud_cm": [[9983, 0], [4, 13]]};
+
+// ── Helpers ──────────────────────────────────────────────
+const COLORS = {
+  blue:  'rgba(99,179,237,',
+  amber: 'rgba(246,173,85,',
+  green: 'rgba(104,211,145,',
+  red:   'rgba(252,129,129,',
+  purple:'rgba(183,148,246,',
+};
+const GRID = { color: 'rgba(255,255,255,0.05)' };
+const TICK = { color: '#718096', font: { family: 'IBM Plex Mono', size: 11 } };
+const baseOpts = {
+  responsive: true,
+  maintainAspectRatio: true,
+  plugins: { legend: { labels: { color: '#a0aec0', font: { family: 'IBM Plex Mono', size: 11 }, boxWidth: 12 } } },
+};
+
+function barOpts(xLabel, yLabel) {
+  return {
+    ...baseOpts,
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: GRID, ticks: TICK }
+    }
+  };
+}
+
+function lineOpts() {
+  return {
+    ...baseOpts,
+    elements: { point: { radius: 0 } },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: GRID, ticks: TICK, min: 0, max: 1 }
+    }
+  };
+}
+
+function makeBarRows(container, feats, vals, color, maxVal) {
+  const el = document.getElementById(container);
+  if (!el) return;
+  maxVal = maxVal || Math.max(...vals);
+  el.innerHTML = feats.map((f, i) => `
+    <div class="bar-row">
+      <div class="bar-label-row">
+        <span class="bar-label" style="font-family:var(--mono);font-size:11px">${f}</span>
+        <span class="bar-val">${vals[i].toFixed(4)}</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${(vals[i]/maxVal*100).toFixed(1)}%;background:${color}"></div>
+      </div>
+    </div>`).join('');
+}
+
+// ── Navigation ────────────────────────────────────────────
+function goPage(id, el) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  el.classList.add('active');
+}
+
+// ── CHARTS ────────────────────────────────────────────────
+
+// Overview bar
+new Chart(document.getElementById('cvOverview'), {
+  type: 'bar',
+  data: {
+    labels: ['사기탐지 (RF)', '이탈예측 (LGB)', '세그멘테이션\n(Silhouette)', '신용점수 (RF)'],
+    datasets: [{
+      label: 'AUC / Score',
+      data: [0.9997, 0.6857, 0.6118, 0.6541],
+      backgroundColor: [
+        COLORS.red   + '0.7)',
+        COLORS.amber + '0.7)',
+        COLORS.green + '0.7)',
+        COLORS.blue  + '0.7)',
+      ],
+      borderColor: [
+        COLORS.red   + '1)',
+        COLORS.amber + '1)',
+        COLORS.green + '1)',
+        COLORS.blue  + '1)',
+      ],
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...barOpts(),
+    plugins: { ...baseOpts.plugins, legend: { display: false } },
+    scales: {
+      x: { grid: GRID, ticks: { ...TICK, maxRotation: 0 } },
+      y: { grid: GRID, ticks: TICK, min: 0, max: 1.05 }
+    }
+  }
+});
+
+// ── Fraud ROC
+new Chart(document.getElementById('cvFraudROC'), {
+  type: 'line',
+  data: {
+    labels: D.fraud_roc_xgb_fpr.map(v => v.toFixed(3)),
+    datasets: [
+      {
+        label: 'XGBoost (0.9995)',
+        data: D.fraud_roc_xgb_tpr,
+        borderColor: COLORS.red + '1)',
+        backgroundColor: COLORS.red + '0.1)',
+        borderWidth: 2, fill: true, tension: 0.3,
+      },
+      {
+        label: 'Random Forest (0.9997)',
+        data: D.fraud_roc_rf_tpr,
+        borderColor: COLORS.blue + '1)',
+        borderWidth: 2, fill: false, tension: 0.3,
+      },
+      {
+        label: 'Random (baseline)',
+        data: D.fraud_roc_xgb_fpr,
+        borderColor: 'rgba(255,255,255,0.2)',
+        borderDash: [4,4], borderWidth: 1, fill: false, pointRadius: 0,
+      }
+    ]
+  },
+  options: { ...lineOpts(), plugins: { ...baseOpts.plugins } }
+});
+
+// Fraud AUC bar
+new Chart(document.getElementById('cvFraudAUC'), {
+  type: 'bar',
+  data: {
+    labels: Object.keys(D.fraud_aucs),
+    datasets: [{
+      label: 'AUC-ROC',
+      data: Object.values(D.fraud_aucs),
+      backgroundColor: [
+        COLORS.blue  + '0.7)',
+        COLORS.green + '0.7)',
+        COLORS.red   + '0.7)',
+        COLORS.amber + '0.7)',
+      ],
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...barOpts(),
+    indexAxis: 'y',
+    plugins: { ...baseOpts.plugins, legend: { display: false } },
+    scales: {
+      x: { grid: GRID, ticks: TICK, min: 0.9, max: 1.01 },
+      y: { grid: { display: false }, ticks: TICK }
+    }
+  }
+});
+
+makeBarRows('fraudFeatBars', 
+  D.fraud_feat.map(f => f.feature),
+  D.fraud_feat.map(f => f.importance),
+  'var(--accent4)'
+);
+
+// ── Churn ROC
+new Chart(document.getElementById('cvChurnROC'), {
+  type: 'line',
+  data: {
+    labels: D.churn_roc_fpr.map(v => v.toFixed(3)),
+    datasets: [
+      {
+        label: `LightGBM (AUC ${D.churn_auc})`,
+        data: D.churn_roc_tpr,
+        borderColor: COLORS.amber + '1)',
+        backgroundColor: COLORS.amber + '0.1)',
+        borderWidth: 2, fill: true, tension: 0.3,
+      },
+      {
+        label: 'Random',
+        data: D.churn_roc_fpr,
+        borderColor: 'rgba(255,255,255,0.2)',
+        borderDash: [4,4], borderWidth: 1, fill: false, pointRadius: 0,
+      }
+    ]
+  },
+  options: { ...lineOpts() }
+});
+
+// Churn cohort
+new Chart(document.getElementById('cvChurnCohort'), {
+  type: 'bar',
+  data: {
+    labels: D.churn_cohort_labels,
+    datasets: [{
+      label: '이탈율 (%)',
+      data: D.churn_cohort_rates,
+      backgroundColor: D.churn_cohort_rates.map(v =>
+        v > 10 ? COLORS.red+'0.8)' : v > 4 ? COLORS.amber+'0.8)' : COLORS.green+'0.7)'
+      ),
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...barOpts(),
+    plugins: { ...baseOpts.plugins, legend: { display: false } },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: GRID, ticks: TICK, title: { display: true, text: '이탈율 (%)', color: '#718096' } }
+    }
+  }
+});
+
+makeBarRows('churnShapBars',
+  D.churn_shap_feats,
+  D.churn_shap_vals,
+  'var(--accent2)'
+);
+
+// ── Segment scatter (custom canvas)
+(function() {
+  const canvas = document.getElementById('cvScatter');
+  const ctx = canvas.getContext('2d');
+  const clusterColors = [COLORS.amber+'0.7)', COLORS.blue+'0.7)'];
+  const clusterBorder = [COLORS.amber+'1)', COLORS.blue+'1)'];
+
+  const datasets = [0, 1].map(c => ({
+    label: D.seg_scatter_l.find((l, i) => D.seg_scatter_c[i] === c) || `Cluster ${c}`,
+    data: D.seg_scatter_x.map((x, i) => D.seg_scatter_c[i] === c ? { x, y: D.seg_scatter_y[i] } : null).filter(Boolean),
+    backgroundColor: clusterColors[c],
+    borderColor: clusterBorder[c],
+    borderWidth: 1,
+    pointRadius: 4,
+    pointHoverRadius: 6,
+  }));
+
+  const scatter = new Chart(canvas, {
+    type: 'scatter',
+    data: { datasets },
+    options: {
+      ...baseOpts,
+      maintainAspectRatio: false,
+      plugins: {
+        ...baseOpts.plugins,
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const idx = D.seg_scatter_x.findIndex((x, i) =>
+                Math.abs(x - ctx.parsed.x) < 0.001 && Math.abs(D.seg_scatter_y[i] - ctx.parsed.y) < 0.001
+              );
+              if (idx < 0) return '';
+              return [
+                D.seg_scatter_l[idx],
+                `R: ${D.seg_scatter_r[idx]}일  F: ${D.seg_scatter_f[idx]}회`,
+                `M: ${(D.seg_scatter_m[idx]/10000).toFixed(0)}만원`
+              ];
+            }
+          }
+        }
+      },
+      scales: {
+        x: { grid: GRID, ticks: TICK, title: { display: true, text: 'PC1 (71.3%)', color: '#718096' } },
+        y: { grid: GRID, ticks: TICK, title: { display: true, text: 'PC2 (24.5%)', color: '#718096' } }
+      }
+    }
+  });
+})();
+
+// Category spend
+new Chart(document.getElementById('cvCatSpend'), {
+  type: 'doughnut',
+  data: {
+    labels: D.seg_cats,
+    datasets: [{
+      data: D.seg_vals,
+      backgroundColor: [
+        COLORS.blue+'0.8)', COLORS.amber+'0.8)', COLORS.purple+'0.8)',
+        COLORS.red+'0.8)', COLORS.green+'0.8)', COLORS.amber+'0.6)', COLORS.blue+'0.5)'
+      ],
+      borderColor: 'var(--surface)',
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    ...baseOpts,
+    plugins: {
+      ...baseOpts.plugins,
+      tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed}억원` } }
+    }
+  }
+});
+
+// Segment profile
+(function() {
+  const el = document.getElementById('segProfile');
+  const colors = ['var(--accent2)', 'var(--accent1)'];
+  el.innerHTML = D.seg_prof_labels.map((lbl, i) => `
+    <div style="background:var(--surface2);border-radius:8px;padding:14px 16px;margin-bottom:10px;border-left:3px solid ${colors[i%2]}">
+      <div style="font-weight:600;font-size:13px;margin-bottom:6px">${lbl}</div>
+      <div style="display:flex;gap:20px;font-size:12px;color:var(--muted);font-family:var(--mono)">
+        <span>고객: <strong style="color:var(--text)">${D.seg_prof_counts[i].toLocaleString()}</strong></span>
+        <span>RFM: <strong style="color:${colors[i%2]}">${D.seg_prof_rfm[i]}</strong></span>
+      </div>
+    </div>`).join('');
+})();
+
+// ── Credit hist
+new Chart(document.getElementById('cvCreditHist'), {
+  type: 'bar',
+  data: {
+    labels: D.credit_bins.map(b => Math.round(b)),
+    datasets: [{
+      label: '고객 수',
+      data: D.credit_cnts,
+      backgroundColor: D.credit_bins.map(b =>
+        b >= 700 ? COLORS.green+'0.8)' :
+        b >= 550 ? COLORS.amber+'0.8)' :
+                   COLORS.red+'0.8)'
+      ),
+      borderRadius: 2,
+    }]
+  },
+  options: {
+    ...barOpts(),
+    plugins: { ...baseOpts.plugins, legend: { display: false } },
+    scales: {
+      x: { grid: GRID, ticks: { ...TICK, maxRotation: 45 } },
+      y: { grid: GRID, ticks: TICK }
+    }
+  }
+});
+
+// Credit edu
+const eduLabels = { '1': '대학원', '2': '대학교', '3': '고등학교', '4': '기타' };
+new Chart(document.getElementById('cvCreditEdu'), {
+  type: 'bar',
+  data: {
+    labels: D.credit_edu_keys.map(k => eduLabels[k] || k),
+    datasets: [{
+      label: '부도율 (%)',
+      data: D.credit_edu_vals,
+      backgroundColor: [
+        COLORS.blue+'0.7)', COLORS.green+'0.7)', COLORS.amber+'0.7)', COLORS.red+'0.7)'
+      ],
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...barOpts(),
+    plugins: { ...baseOpts.plugins, legend: { display: false } },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: GRID, ticks: TICK, title: { display: true, text: '부도율 (%)', color: '#718096' } }
+    }
+  }
+});
+
+makeBarRows('creditShapBars',
+  D.credit_shap_feats,
+  D.credit_shap_vals,
+  'var(--accent1)'
+);
+
+</script>
+</body>
+</html>
